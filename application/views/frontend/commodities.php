@@ -13,8 +13,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h2 class="title mb-3 wow fadeInUp"><span class="text-gradient">Trade Commodities </span>with YaMarkets</h2>
-                <p class="mb-0 wow fadeInUp" data-wow-delay="100ms">Trade commodities like Metals and Energies, access new market opportunities, protect against inflation, and diversify your investment portfolio effortlessly with YaMarkets</p>
+                <h2 class="title mb-3 wow fadeInUp"><span class="text-gradient"><?=lang('commodities_trade_heading_1')?> </span><?=lang('commodities_trade_heading_2')?></h2>
+                <p class="mb-0 wow fadeInUp" data-wow-delay="100ms"><?=lang('commodities_trade_description')?></p>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row gy-4 align-items-center">
             <div class="col-12 text-center">
-                <h2 class="title mb-4 wow fadeInUp">Why <span class="text-gradient">YaMarkets?</span></h2>
+                <h2 class="title mb-4 wow fadeInUp"><?=lang('commodities_trade_why')?> <span class="text-gradient"><?=lang('commodities_trade_yamarkets')?></span></h2>
             </div>
             <div class="col-md-6 wow fadeInLeft">
                 <img src="<?= base_url() ?>public/web/website/product/commodities/commodities-explained.jpg" alt="" class="img-fluid pe-none comm-img" />
@@ -35,16 +35,16 @@
             <div class="col-md-6">
                 <ul class="comm-list" type="none">
                     <li class="mb-4 wow fadeInRight position-relative">
-                        <h4 class="mb-2">Zero Commissions</h4>
-                        <p>Pay no fees and access margins from as low as 10%.</p>
+                        <h4 class="mb-2"><?=lang('commodities_trade_zero_commissions')?></h4>
+                        <p><?=lang('commodities_trade_zero_commissions_description')?></p>
                     </li>
                     <li class="mb-4 wow fadeInRight position-relative" data-wow-delay="200ms">
-                        <h4 class="mb-2">Go Long or Short</h4>
-                        <p>Benefit from both rising and falling markets when trading commodities.</p>
+                        <h4 class="mb-2"><?=lang('commodities_trade_long_short')?></h4>
+                        <p><?=lang('commodities_trade_long_short_description')?></p>
                     </li>
                     <li class="wow fadeInRight position-relative" data-wow-delay="400ms">
-                        <h4 class="mb-2">Use Leverage</h4>
-                        <p>Begin trading with a fraction of the commodity price, knowing that leverage can amplify both profits and losses.</p>
+                        <h4 class="mb-2"><?=lang('commodities_trade_leverage')?></h4>
+                        <p><?=lang('commodities_trade_leverage_description')?></p>
                     </li>
                 </ul>
             </div>
@@ -62,8 +62,8 @@
                         <img src="<?= base_url() ?>public/web/website/product/commodities/1_What are commodities-.svg" class="img-fluid" alt="commodities">
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-3">User-Friendly Platform</h5>
-                        <p class="card-text">YaMarkets offers an intuitive and easy-to-use platform designed for effortless commodities trading, catering to both beginners and experienced traders.</p>
+                        <h5 class="card-title text-primary fw-semibold mb-3"><?=lang('commodities_user_friendly_platform_heading')?></h5>
+                        <p class="card-text"><?=lang('commodities_user_friendly_platform_description')?></p>
                     </div>
                 </div>
             </div>
@@ -73,8 +73,8 @@
                         <img src="<?= base_url() ?>public/web/website/product/commodities/1_How to trade commodity CFDs.svg" class="img-fluid" alt="commodities">
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-3">Extensive Commodity Options</h5>
-                        <p class="card-text">Access a broad spectrum of commodities including oil, gold, silver, and more, empowering traders to diversify their investments according to their preferences and strategies.</p>
+                        <h5 class="card-title text-primary fw-semibold mb-3"><?=lang('commodities_extensive_options_heading')?></h5>
+                        <p class="card-text"><?=lang('commodities_extensive_options_description')?></p>
                     </div>
                 </div>
             </div>
@@ -84,8 +84,8 @@
                         <img src="<?= base_url() ?>public/web/website/product/commodities/1_Why trade commodities-.svg" class="img-fluid" alt="commodities">
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-3">Favorable Trading Conditions</h5>
-                        <p class="card-text">Benefit from advantageous conditions such as zero commissions, low margin requirements, and the flexibility to capitalize on both upward and downward market movements, enhancing profitability and trade execution at YaMarkets.</p>
+                        <h5 class="card-title text-primary fw-semibold mb-3"><?=lang('commodities_favorable_conditions_heading')?></h5>
+                        <p class="card-text"><?=lang('commodities_favorable_conditions_description')?></p>
                     </div>
                 </div>
             </div>
@@ -98,34 +98,34 @@
     <div class="container">
         <div class="row align-items-center gy-4">
             <div class="col-lg-6">
-                <h2 class="title mb-3 wow fadeInLeft">Trade Popular <span class="text-gradient">Commodities</span></h2>
-                <p class="wow fadeInLeft" data-wow-delay="100ms">Trade the most popular commodities like Gold, Oil, Silver, Natural Gas, etc. with YaMarkets, the best platform for trading commodities efficiently without getting confused. Learn and train with our extensive trading educational resources. Start your trading journey and open your live account now!</p>
-                <a href="https://area.yamarkets.com/register" class="btn btn-primary  wow fadeInUp" data-wow-delay="100ms">Open live account</a>
+                <h2 class="title mb-3 wow fadeInLeft"><?=lang('commodities_popular_commodities_heading_1')?> <span class="text-gradient"><?=lang('commodities_popular_commodities_heading_2')?></span></h2>
+                <p class="wow fadeInLeft" data-wow-delay="100ms"><?=lang('commodities_popular_commodities_description')?></p>
+                <a href="https://area.yamarkets.com/register" class="btn btn-primary  wow fadeInUp" data-wow-delay="100ms"><?=lang('open_live_account_button')?></a>
             </div>
             <div class="col-lg-6">
                 <div class="row g-4 gx-md-2 gy-md-1 popular-comm">
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="card border rounded-top-pill align-items-center py-3 bg-transparent text-center">
                             <img src="<?= base_url() ?>public/web/website/product/commodities/Popular commodities/1_gold (2).svg" alt="" class="img-fluid mb-3" />
-                            <h5 class="text-white">Gold</h5>
+                            <h5 class="text-white"><?=lang('commodities_popular_commodities_gold')?></h5>
                         </div>
                     </div>
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="card border rounded-top-pill align-items-center py-3 bg-transparent text-center">
                             <img src="<?= base_url() ?>public/web/website/product/commodities/Popular commodities/1_silver.svg" alt="" class="img-fluid mb-3" />
-                            <h5 class="text-white">Silver</h5>
+                            <h5 class="text-white"><?=lang('commodities_popular_commodities_silver')?></h5>
                         </div>
                     </div>
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="card border rounded-bottom-pill align-items-center py-3 bg-transparent text-center">
                             <img src="<?= base_url() ?>public/web/website/product/commodities/Popular commodities/1_oil.svg" alt="" class="img-fluid mb-3" />
-                            <h5 class="text-white">Oil</h5>
+                            <h5 class="text-white"><?=lang('commodities_popular_commodities_oil')?></h5>
                         </div>
                     </div>
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="400ms">
                         <div class="card border rounded-bottom-pill align-items-center py-3 bg-transparent text-center">
                             <img src="<?= base_url() ?>public/web/website/product/commodities/Popular commodities/1_gas.svg" alt="" class="img-fluid mb-3" />
-                            <h5 class="text-white">Natural Gas</h5>
+                            <h5 class="text-white"><?=lang('commodities_popular_commodities_naturalgas')?></h5>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h2 class="title wow fadeInUp">Commodities <span class="text-gradient">FAQ</span></h2>
+                <h2 class="title wow fadeInUp"><?=lang('commodities_faq_heading_1')?> <span class="text-gradient"><?=lang('commodities_faq_heading_2')?></span></h2>
             </div>
             <div class="col-12">
                 <div class="accordion" id="accordionExample">
@@ -146,12 +146,12 @@
                         <div class="accordion-item">
                             <h4 class="accordion-header">
                                 <button class="accordion-button bg-transparent text-primary fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How can I Calculate the required margin for trading a commodity?
+                                <?=lang('commodities_faq_question_1')?>
                                 </button>
                             </h4>
                             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body text-white opacity-50">
-                                    <p>The calculation for the required margin is quantity x price x margin.</p>
+                                    <p><?=lang('commodities_faq_answer_1')?></p>
                                 </div>
                             </div>
                         </div>
@@ -160,14 +160,14 @@
                         <div class="accordion-item">
                             <h4 class="accordion-header">
                                 <button class="accordion-button collapsed bg-transparent text-primary fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                    When do commodity CFD orders reach their expiration?
+                                <?=lang('commodities_faq_question_2')?>
                                 </button>
                             </h4>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body text-white opacity-50">
-                                    <p>All commodity CFD markets, including those on MetaTrader, have an expiration. However, please note that our spot commodity markets do not expire.</p>
-                                    <p>The box on the trading platform shows the upcoming expiry date and time for a CFD market. For more comprehensive details, refer to the Market Information Sheets within the trading platform.</p>
-                                    <p>Upon the expiry of a CFD market, we automatically close all open positions based on our latest prices, and any pending orders are cancelled. To maintain open positions in a market, you must manually open a new position in the subsequent contract month.</p>
+                                    <p><?=lang('commodities_faq_answer_2_1')?></p>
+                                    <p><?=lang('commodities_faq_answer_2_2')?></p>
+                                    <p><?=lang('commodities_faq_answer_2_3')?></p>
                                 </div>
                             </div>
                         </div>
@@ -182,15 +182,15 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h5 class="text-primary fw-bold">Your Partner in Trading Success</h5>
-                <h2 class="title">Register Now for <span class="text-gradient">Seamless Trading </span>
-                    <div class="d-lg-block text-gradient">with YaMarkets</div>
+                <h5 class="text-primary fw-bold"><?=lang('partner_trading_success_heading')?></h5>
+                <h2 class="title"><?=lang('register_now_title')?> <span class="text-gradient"><?=lang('seamless_trading_text')?> </span>
+                    <div class="d-lg-block text-gradient"><?=lang('with_yamarkets_text')?></div>
                 </h2>
             </div>
             <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms">Open live account</a>
-                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms">Open demo account</a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('open_live_account_button')?></a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms"><?=lang('open_demo_account_button')?></a>
                 </div>
             </div>
         </div>

@@ -1270,7 +1270,7 @@ $lang['copy_trading_benefit_3_title_1'] = 'RISK CONTROL';
 $lang['copy_trading_benefit_3_title_2'] = 'TOOLS';
 $lang['copy_trading_benefit_3_description'] = 'Utilize risk management tools to regulate exposure while copying trades.';
 $lang['copy_trading_benefit_4_title_1'] = 'PERFORMANCE';
-$lang['copy_trading_benefit_4_title_2'] = 'MONITORING';
+$lang['copy_trading_benefit_copy_trading_faqs_answer_24_title_2'] = 'MONITORING';
 $lang['copy_trading_benefit_4_description'] = 'Track and analyze copied trades\' performance for informed decision-making.';
 $lang['copy_trading_benefit_5_title_1'] = 'FLEXIBLE';
 $lang['copy_trading_benefit_5_title_2'] = 'CONTROL';
@@ -1283,7 +1283,7 @@ $lang['copy_trading_faqs_heading'] = 'Copy Trading FAQs';
 $lang['copy_trading_faqs_question_1'] = 'How does copy trading work?';
 $lang['copy_trading_faqs_answer_1'] = 'Copy trading allows users to replicate trades made by experienced traders automatically. When a chosen trader executes a trade, it is mirrored in the follower\'s account.';
 $lang['copy_trading_faqs_question_2'] = 'What level of control do I have in copy trading?';
-$lang['copy_trading_faqs_answer_2'] = 'While copy trading automates trade replication, users have control over choosing traders, allocating funds, and stopping or adjusting copied trades.';
+$lang[''] = 'While copy trading automates trade replication, users have control over choosing traders, allocating funds, and stopping or adjusting copied trades.';
 $lang['copy_trading_faqs_question_3'] = 'Is copy trading suitable for beginners?';
 $lang['copy_trading_faqs_answer_3'] = 'Yes, copy trading can benefit beginners by allowing them to learn from expert strategies and potentially earn while gaining market insights. However, understanding risks is essential.';
 

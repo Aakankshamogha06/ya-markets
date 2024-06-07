@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="title mb-0 wow fadeInUp" data-wow-delay="200ms">Economic <span class="text-gradient">Calender</span></h2>
+                <h2 class="title mb-0 wow fadeInUp" data-wow-delay="200ms"><?=lang('economic_calendar_title_1')?> <span class="text-gradient"><?=lang('economic_calendar_title_2')?></span></h2>
             </div>
         </div>
     </div>
@@ -42,15 +42,15 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h5 class="text-primary fw-bold">Supported Payment Systems</h5>
-                <h2 class="title">For convenient <span class="text-gradient">deposits </span>
-                    <div class="d-lg-block text-gradient">and withdrawals</div>
+                <h5 class="text-primary fw-bold"><?=lang('supported_payment_systems_title')?></h5>
+                <h2 class="title"><?=lang('for_convenient')?> <span class="text-gradient"><?=lang('deposits')?> </span>
+                    <div class="d-lg-block text-gradient"><?=lang('and_withdrawals')?></div>
                 </h2>
             </div>
             <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms">Open live account</a>
-                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms">Open demo account</a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('open_live_account_button')?></a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms"><?=lang('open_demo_account_button')?></a>
                 </div>
             </div>
         </div>

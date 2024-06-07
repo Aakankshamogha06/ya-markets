@@ -22,9 +22,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto text-center">
-                <h5 class="text-primary fw-bold text-uppercase wow fadeInDown">Indices</h5>
-                <h2 class="title mb-3 wow fadeInUp" data-wow-delay="200ms">Indices Trading <span class="text-gradient">with YaMarkets</span></h2>
-                <p class="wow fadeInUpBig" data-wow-delay="300ms">Discover the world of indices trading with YaMarkets, offering a diverse range of index instruments to enhance your trading portfolio.</p>
+                <h5 class="text-primary fw-bold text-uppercase wow fadeInDown"><?=lang('indices_heading')?></h5>
+                <h2 class="title mb-3 wow fadeInUp" data-wow-delay="200ms"><?=lang('indices_trading_heading')?> <span class="text-gradient"><?=lang('indices_trading_subheading')?></span></h2>
+                <p class="wow fadeInUpBig" data-wow-delay="300ms"><?=lang('indices_trading_subheading_desc')?></p>
             </div>
         </div>
     </div>
@@ -50,8 +50,8 @@
     <div class="container">
         <div class="row mb-3 mb-lg-5">
             <div class="col-lg-8 col-xl-6 mx-auto text-center">
-                <h5 class="text-primary fw-bold text-uppercase wow fadeInDown">WHY TRADE INDICES WITH YAMARKETS?</h5>
-                <h2 class="title mb-3 wow fadeInUp" data-wow-delay="200ms">Maximise Success with <span class="text-gradient">YaMarkets Indices Trading</span></h2>
+                <h5 class="text-primary fw-bold text-uppercase wow fadeInDown"><?=lang('why_trade_indices_heading')?></h5>
+                <h2 class="title mb-3 wow fadeInUp" data-wow-delay="200ms"><?=lang('maximise_success_heading')?> <span class="text-gradient"><?=lang('yamarkets_indices_trading')?></span></h2>
             </div>
         </div>
         <div class="indices-col forex-cards">
@@ -62,7 +62,7 @@
                         <img src="<?= base_url() ?>public/web/website/1_Advanced Analysis Tools.svg" class="img-fluid" alt="Advanced Analysis Tools">
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-0">Advanced Analysis Tools</h5>
+                        <h5 class="card-title text-primary fw-semibold mb-0"><?=lang('advanced_analysis_tools')?></h5>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                         <img src="<?= base_url() ?>public/web/website/1_Real-Time Market Data.svg" class="img-fluid" alt="Real-Time Market Data">
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-0">Real-Time Market Data</h5>
+                        <h5 class="card-title text-primary fw-semibold mb-0"><?=lang('real_time_market_data')?></h5>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                         <img src="<?= base_url() ?>public/web/website/1_Fast Order Execution.svg" class="img-fluid" alt="Fast Order Execution">
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-0">Fast Order Execution</h5>
+                        <h5 class="card-title text-primary fw-semibold mb-0"><?=lang('fast_order_execution')?></h5>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                         <img src="<?= base_url() ?>public/web/website/product/Indices/1__No swaps.svg" class="img-fluid" alt="No Swaps No Commissions">
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-0">No Swaps No Commissions</h5>
+                        <h5 class="card-title text-primary fw-semibold mb-0"><?=lang('no_swaps_no_commissions')?></h5>
                     </div>
                 </div>
             </div>
@@ -102,14 +102,14 @@
                         <img src="<?= base_url() ?>public/web/website/1_Strong Risk Management.svg" class="img-fluid" alt="Strong Risk Management">
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-0">Strong Risk Management</h5>
+                        <h5 class="card-title text-primary fw-semibold mb-0"><?=lang('strong_risk_management')?></h5>
                     </div>
                 </div>
             </div>
 
         </div>
         <div class="group-btn mt-3 mt-md-5 text-center">
-            <a href="#" class="btn btn-primary mb-3 mb-md-0 wow fadeInUp" data-wow-delay="100ms">Trade indices now</a>
+            <a href="#" class="btn btn-primary mb-3 mb-md-0 wow fadeInUp" data-wow-delay="100ms"><?=lang('trade_indices_now_button')?></a>
         </div>
     </div>
 </section>
@@ -118,15 +118,15 @@
     <div class="container">
         <div class="row mb-3 mb-lg-5">
             <div class="col-lg-10 mx-auto text-center">
-                <h2 class="title mb-3 wow fadeInUp" data-wow-delay="200ms">CFD Margin <span class="text-gradient">Requirements</span></h2>
-                <p class="wow fadeInUpBig" data-wow-delay="300ms">Margin requirements in CFD Trading allow investors to trade with minimal account balances. It represents the necessary trading account balance to maintain open positions, especially for Stock Index CFDs.</p>
+                <h2 class="title mb-3 wow fadeInUp" data-wow-delay="200ms"><?=lang('cfd_margin_requirements_heading_1')?> <span class="text-gradient"><?=lang('cfd_margin_requirements_heading_2')?></span></h2>
+                <p class="wow fadeInUpBig" data-wow-delay="300ms"><?=lang('cfd_margin_requirements_description')?></p>
             </div>
 
             <div class="col-12 mt-5">
                 <!-- TradingView Widget BEGIN -->
                 <div class="tradingview-widget-container">
                     <div class="tradingview-widget-container__widget"></div>
-                    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"><?=lang('track_all_markets_tradingview')?></span></a></div>
                     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
                         {
                             "width": "100%",
@@ -544,15 +544,15 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h5 class="text-primary fw-bold">Your Partner in Trading Success</h5>
-                <h2 class="title">Register Now for <span class="text-gradient">Seamless Trading </span>
-                    <div class="d-lg-block text-gradient">with YaMarkets</div>
+                <h5 class="text-primary fw-bold"><?=lang('partner_trading_success_heading')?></h5>
+                <h2 class="title"><?=lang('seamless_trading_register_heading_1')?> <span class="text-gradient"><?=lang('seamless_trading_register_heading_2')?> </span>
+                    <div class="d-lg-block text-gradient"><?=lang('seamless_trading_register_subheading')?></div>
                 </h2>
             </div>
             <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms">Open live account</a>
-                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms">Open demo account</a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('open_live_account_button')?></a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms"><?=lang('open_demo_account_button')?></a>
                 </div>
             </div>
         </div>

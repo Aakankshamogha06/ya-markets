@@ -2,10 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h5 class="text-primary fw-bold text-uppercase wow fadeInLeftBig">Instrument list yamarket trader with
-                    crypto equity CFDs and etfs</h5>
-                <h2 class="title wow fadeInLeftBig" data-wow-delay="200ms">Compare <span
-                        class="text-gradient">platforms</span></h2>
+                <h5 class="text-primary fw-bold text-uppercase wow fadeInLeftBig"><?=lang('platforms_section_heading')?></h5>
+                <h2 class="title wow fadeInLeftBig" data-wow-delay="200ms"><?=lang('platforms_section_subheading_1')?> <span
+                        class="text-gradient"><?=lang('platforms_section_subheading_2')?></span></h2>
             </div>
         </div>
     </div>
@@ -20,25 +19,25 @@
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>MT4 platform</th>
-                                <th>MT5 platform</th>
+                                <th><?=lang('platforms_section_mt4_label')?></th>
+                                <th><?=lang('platforms_section_mt5_label')?></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Market</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_market')?></span>
                                 </td>
                                 <td>
-                                    Forex and CFDs
+                                <?=lang('platforms_section_mt4_market')?>
                                 </td>
                                 <td>
-                                    Forex, futures, stocks, bonds, and options market
+                                <?=lang('platforms_section_mt5_market')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Technical indicators</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_technical_indicators')?></span>
                                 </td>
                                 <td>
                                     30
@@ -49,7 +48,7 @@
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Graphical objects</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_graphical_objects')?></span>
                                 </td>
                                 <td>
                                     31
@@ -60,7 +59,7 @@
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Timeframes</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_timeframes')?></span>
                                 </td>
                                 <td>
                                     9
@@ -71,7 +70,7 @@
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Pending order types</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_pending_order_types')?></span>
                                 </td>
                                 <td>
                                     4
@@ -82,112 +81,112 @@
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Order fill policy</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_order_fill_policy')?></span>
                                 </td>
                                 <td>
-                                    Fill or Kill
+                                <?=lang('platforms_section_mt4_order_fill_policy')?>
                                 </td>
                                 <td>
-                                    Fill or Kill, Immediate or Cancel, Return
+                                <?=lang('platforms_section_mt5_order_fill_policy')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Partial order fill policy</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_partial_order_fill_policy')?></span>
                                 </td>
                                 <td>
-                                    No
+                                <?=lang('no')?>
                                 </td>
                                 <td>
-                                    Yes
+                                <?=lang('yes')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Economic Calendar</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_economic_calendar')?></span>
                                 </td>
                                 <td>
-                                    No
+                                    <?=lang('no')?>
                                 </td>
                                 <td>
-                                    Yes
+                                <?=lang('yyes')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Email system</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_email_system')?></span>
                                 </td>
                                 <td>
-                                    Yes (no attachments)
+                                <?=lang('platforms_section_mt4_email_system')?>
                                 </td>
                                 <td>
-                                    Yes (with attachments)
+                                <?=lang('platforms_section_mt5_email_system')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Fund transfer between accounts</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_fund_transfer')?></span>
                                 </td>
                                 <td>
-                                    No
+                                    <?=lang('no')?>
                                 </td>
                                 <td>
-                                    Yes
+                                <?=lang('yyes')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Depth of Market</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_depth_of_market')?></span>
                                 </td>
                                 <td>
-                                    No
+                                    <?=lang('no')?>
                                 </td>
                                 <td>
-                                    Yes
+                                <?=lang('yyes')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Hedging</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_hedging')?></span>
                                 </td>
                                 <td>
-                                    Yes
+                                <?=lang('platforms_section_mt4_hedging')?>
                                 </td>
                                 <td>
-                                    Yes
+                                <?=lang('platforms_section_mt5_hedging')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Netting</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_netting')?></span>
                                 </td>
                                 <td>
-                                    No
+                                <?=lang('platforms_section_mt4_netting')?>
                                 </td>
                                 <td>
-                                    Yes
+                                <?=lang('platforms_section_mt5_netting')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Exchange Trading</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_exchange_trading')?></span>
                                 </td>
                                 <td>
-                                    No
+                                <?=lang('platforms_section_mt4_exchange_trading')?>
                                 </td>
                                 <td>
-                                    Yes
+                                <?=lang('platforms_section_mt5_exchange_trading')?>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="text-primary">
-                                    <span class="border-b-dashed">Programming Language</span>
+                                    <span class="border-b-dashed"><?=lang('platforms_section_programming_language')?> </span>
                                 </td>
                                 <td>
-                                    MQL4
+                                <?=lang('platforms_section_mt4_programming_language')?>
                                 </td>
                                 <td>
-                                    MLQ5
+                                <?=lang('platforms_section_mt5_programming_language')?>
                                 </td>
                             </tr>
                         </tbody>
@@ -202,17 +201,15 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h5 class="text-primary fw-bold">Supported Payment Systems</h5>
-                <h2 class="title">For convenient <span class="text-gradient">deposits </span>
-                    <div class="d-lg-block text-gradient">and withdrawals</div>
+                <h5 class="text-primary fw-bold"><?=lang('partner_trading_success_heading')?></h5>
+                <h2 class="title"><?=lang('register_now_title')?> <span class="text-gradient"><?=lang('seamless_trading_text')?> </span>
+                    <div class="d-lg-block text-gradient"><?=lang('with_yamarkets_text')?></div>
                 </h2>
             </div>
             <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp"
-                        data-wow-delay="100ms">Open live account</a>
-                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp"
-                        data-wow-delay="300ms">Open demo account</a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('open_live_account_button')?></a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms"><?=lang('open_demo_account_button')?></a>
                 </div>
             </div>
         </div>

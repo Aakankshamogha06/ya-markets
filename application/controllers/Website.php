@@ -286,14 +286,14 @@ class Website extends CI_Controller
         $this->load->view('frontend/indices');
         $this->load->view('frontend/include/footer');
     }
-    public function instruments_list($language_segment)
-    {
-        $this->switch_language_url($language_segment);
-        $this->load_language();
-        $this->load->view('frontend/include/header');
-        $this->load->view('frontend/instruments-list');
-        $this->load->view('frontend/include/footer');
-    }
+public function instruments_list($language_segment)
+{
+    $this->switch_language_url($language_segment);
+    $this->load_language();
+    $this->load->view('frontend/include/header');
+    $this->load->view('frontend/instruments-list');
+    $this->load->view('frontend/include/footer');
+}
     public function analytics($language_segment)
     {
         $this->switch_language_url($language_segment);

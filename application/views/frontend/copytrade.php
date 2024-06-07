@@ -41,9 +41,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 pb-lg-3 text-center">
-                <h5 class="text-primary fw-bold text-uppercase wow fadeInDownBig">Copy Trading</h5>
-                <h2 class="title wow fadeInUpBig" data-wow-delay="200ms">Trade Smarter with YaMarkets <span class="text-gradient">Copy Trading</h2>
-                <p>Trade more intelligently using YaMarkets' Copy Trading feature. Effortlessly replicate successful trades and adopt winning strategies from experienced traders
+                <h5 class="text-primary fw-bold text-uppercase wow fadeInDownBig"><?=lang('copy_trading_section_heading')?></h5>
+                <h2 class="title wow fadeInUpBig" data-wow-delay="200ms"><?=lang('copy_trading_section_subheading_1')?> <span class="text-gradient"><?=lang('copy_trading_section_subheading_2')?></h2>
+                <p><?=lang('copy_trading_section_description')?>
                 </p>
             </div>
         </div>
@@ -60,39 +60,39 @@
                 <img src="<?= base_url() ?>public/web/img/copytrade-img.jpg" alt="Beautiful Inner Page Elements" class="img-fluid rounded-3 shadow">
             </div>
             <div class="col-lg-6 offset-lg-1">
-                <h3 class="h2 fw-bold mb-3 wow fadeInRightBig" data-wow-delay="100ms">Effortlessly Follow Experts with Our Advanced <span class="text-gradient">Copy Trading Tools</span></h3>
-                <p class="wow fadeInRightBig" data-wow-delay="200ms">Copy the trades of expert traders, gain access to advanced trading strategies and improve your trading experience. Benefit from the expertise of professional traders and replicate successful strategies effortlessly with YaMarkets Copy Trading.</p>
+                <h3 class="h2 fw-bold mb-3 wow fadeInRightBig" data-wow-delay="100ms"><?=lang('copy_trading_section_effortlessly_follow_heading_1')?> <span class="text-gradient"><?=lang('copy_trading_section_effortlessly_follow_heading_2')?></span></h3>
+                <p class="wow fadeInRightBig" data-wow-delay="200ms"><?=lang('copy_trading_section_effortlessly_follow_description')?></p>
                 <ul class="list-unstyled">
                     <li class="d-flex align-items-center mb-2 gap-3 wow fadeInRightBig" data-wow-delay="300ms">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#f9c213">
                             <path d="M16.2032 0L5.03743 12.2888L1.79679 9.81818H0L5.03743 18L18 0H16.2032Z" />
                         </svg>
-                        <span class="opacity-50">Effortlessly Mirror Trades</span>
+                        <span class="opacity-50"><?=lang('copy_trading_section_copy_trade_list_1')?></span>
                     </li>
                     <li class="d-flex align-items-center mb-2 gap-3 wow fadeInRightBig" data-wow-delay="400ms">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#f9c213">
                             <path d="M16.2032 0L5.03743 12.2888L1.79679 9.81818H0L5.03743 18L18 0H16.2032Z" />
                         </svg>
-                        <span class="opacity-50">Follow Expert Strategies</span>
+                        <span class="opacity-50"><?=lang('copy_trading_section_copy_trade_list_2')?></span>
                     </li>
                     <li class="d-flex align-items-center mb-2 gap-3 wow fadeInRightBig" data-wow-delay="500ms">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#f9c213">
                             <path d="M16.2032 0L5.03743 12.2888L1.79679 9.81818H0L5.03743 18L18 0H16.2032Z" />
                         </svg>
-                        <span class="opacity-50">Automatic Trade Replication</span>
+                        <span class="opacity-50"><?=lang('copy_trading_section_copy_trade_list_3')?></span>
                     </li>
                     <li class="d-flex align-items-center gap-3 wow fadeInRightBig" data-wow-delay="600ms">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#f9c213">
                             <path d="M16.2032 0L5.03743 12.2888L1.79679 9.81818H0L5.03743 18L18 0H16.2032Z" />
                         </svg>
-                        <span class="opacity-50">Easy Access to Proven Tactics</span>
+                        <span class="opacity-50"><?=lang('copy_trading_section_copy_trade_list_4')?></span>
                     </li>
                 </ul>
             </div>
             <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://copytrader.yamarkets.com/portal/registration/provider" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms">Become a master</a>
-                    <a href="https://copytrader.yamarkets.com/portal/registration/subscription" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="100ms">Become a follower</a>
+                    <a href="https://copytrader.yamarkets.com/portal/registration/provider" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('copy_trading_section_become_master')?></a>
+                    <a href="https://copytrader.yamarkets.com/portal/registration/subscription" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="100ms"><?=lang('copy_trading_section_become_follower')?></a>
 
                 </div>
             </div>
@@ -107,24 +107,24 @@
                 <img src="<?= base_url() ?>public/web/img/account-img.jpg" alt="" class="img-fluid rounded wow fadeInLeft" />
             </div>
             <div class="col-md-6 col-lg-5 offset-lg-1">
-                <h3 class="h2 fw-bold mb-3 " data-wow-delay="100ms">How to Start <span class="text-gradient">Copy Trading? </span></h3>
+                <h3 class="h2 fw-bold mb-3 " data-wow-delay="100ms"><?=lang('copy_trading_how_to_start_heading_1')?> <span class="text-gradient"><?=lang('copy_trading_how_to_start_heading_2')?> </span></h3>
 
                 <ul class="list-unstyled d-grid gap-4 gap-lg-5 position-relative steps-design">
                     <li class="position-relative wow fadeInRight" data-wow-delay="100ms">
-                        <h5 class="text-primary">CREATE AN ACCOUNT</h5>
-                        <p class="mb-0">Sign up on YaMarkets and complete the account creation process.</p>
+                        <h5 class="text-primary"><?=lang('copy_trading_step_1')?></h5>
+                        <p class="mb-0"><?=lang('copy_trading_step_1_description')?></p>
                     </li>
                     <li class="position-relative wow fadeInRight" data-wow-delay="200ms">
-                        <h5 class="text-primary">SELECT COPY TRADING</h5>
-                        <p class="mb-0">Navigate to the Copy Trading section and choose the traders you wish to follow.</p>
+                        <h5 class="text-primary"><?=lang('copy_trading_step_2')?></h5>
+                        <p class="mb-0"><?=lang('copy_trading_step_2_description')?></p>
                     </li>
                     <li class="position-relative wow fadeInRight" data-wow-delay="300ms">
-                        <h5 class="text-primary">DEPOSIT FUNDS</h5>
-                        <p class="mb-0">Allocate funds of at least $100 in your account to start copying the selected trader's trades.</p>
+                        <h5 class="text-primary"><?=lang('copy_trading_step_3')?></h5>
+                        <p class="mb-0"><?=lang('copy_trading_step_3_description')?></p>
                     </li>
                     <li class="position-relative wow fadeInRight" data-wow-delay="400ms">
-                        <h5 class="text-primary">MONITOR AND ADJUST</h5>
-                        <p class="mb-0">Keep an eye on your copied trades, analyse performance, and make adjustments if needed to optimise your copy trading experience.</p>
+                        <h5 class="text-primary"><?=lang('copy_trading_step_4')?></h5>
+                        <p class="mb-0"><?=lang('copy_trading_step_4_description')?></p>
                     </li>
                 </ul>
             </div>
@@ -136,8 +136,8 @@
     <div class="container">
         <div class="row gy-3 g-lg-5 align-items-end">
             <div class="col-lg-10 offset-lg-1 col-xl-8 offset-lg-2 text-center">
-                <h2 class="title mb-3 wow fadeInUp">Our Unique <span class="text-gradient">Benefits</span></h2>
-                <p class="mb-4 wow fadeInUp">Get exclusive copy trading features with YaMarkets and trade with a satisfying experience.</p>
+                <h2 class="title mb-3 wow fadeInUp"><?=lang('copy_trading_section_unique_benefits_heading_1')?> <span class="text-gradient"><?=lang('copy_trading_section_unique_benefits_heading_2')?></span></h2>
+                <p class="mb-4 wow fadeInUp"><?=lang('copy_trading_section_unique_benefits_description')?></p>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="row gy-3 gy-lg-5">
@@ -148,8 +148,8 @@
                                     <i class="fa-2x fa-regular fa-lightbulb mt-1"></i>
                                 </div>
                                 <div>
-                                    <h5 class="card-title text-primary">AUTOMATED <br />REPLICATION</h5>
-                                    <p class="card-text line-clamp">Seamlessly replicate trades from seasoned traders in real-time.</p>
+                                    <h5 class="card-title text-primary"><?=lang('copy_trading_benefit_1_title_1')?> <br /><?=lang('copy_trading_benefit_1_title_2')?></h5>
+                                    <p class="card-text line-clamp"><?=lang('copy_trading_benefit_1_description')?></p>
                                 </div>
                             </div>
                         </div>
@@ -161,8 +161,8 @@
                                     <i class="fa-regular fa-building fa-2x mt-1"></i>
                                 </div>
                                 <div>
-                                    <h5 class="card-title text-primary">VARIED TRADER <br />SELECTION</h5>
-                                    <p class="card-text line-clamp">Access a diverse range of expert traders and strategies.</p>
+                                    <h5 class="card-title text-primary"><?=lang('copy_trading_benefit_2_title_1')?> <br /><?=lang('copy_trading_benefit_2_title_2')?></h5>
+                                    <p class="card-text line-clamp"><?=lang('copy_trading_benefit_2_description')?></p>
                                 </div>
                             </div>
                         </div>
@@ -174,8 +174,8 @@
                                     <i class="fa-solid fa-gauge-simple fa-2x mt-1"></i>
                                 </div>
                                 <div>
-                                    <h5 class="card-title text-primary">RISK CONTROL <br />TOOLS</h5>
-                                    <p class="card-text line-clamp">Utilize risk management tools to regulate exposure while copying trades.</p>
+                                    <h5 class="card-title text-primary"><?=lang('copy_trading_benefit_3_title_1')?> <br /><?=lang('copy_trading_benefit_3_title_2')?></h5>
+                                    <p class="card-text line-clamp"><?=lang('copy_trading_benefit_3_description')?></p>
                                 </div>
                             </div>
                         </div>
@@ -194,8 +194,8 @@
                                     <i class="fa-2x fa-brands fa-google mt-1"></i>
                                 </div>
                                 <div>
-                                    <h5 class="card-title text-primary">PERFORMANCE <br />MONITORING</h5>
-                                    <p class="card-text line-clamp">Track and analyze copied trades' performance for informed decision-making.</p>
+                                    <h5 class="card-title text-primary"><?=lang('copy_trading_benefit_4_title_1')?> <br /><?=lang('copy_trading_benefit_copy_trading_faqs_answer_24_title_2')?></h5>
+                                    <p class="card-text line-clamp"><?=lang('copy_trading_benefit_4_description')?></p>
                                 </div>
                             </div>
                         </div>
@@ -207,8 +207,8 @@
                                     <i class="fa-2x fa-solid fa-microchip mt-1"></i>
                                 </div>
                                 <div>
-                                    <h5 class="card-title text-primary">FLEXIBLE <br />CONTROL</h5>
-                                    <p class="card-text line-clamp">Retain control over copied trades, adjusting or ceasing copying as needed.</p>
+                                    <h5 class="card-title text-primary"><?=lang('copy_trading_benefit_5_title_1')?> <br /><?=lang('copy_trading_benefit_5_title_2')?></h5>
+                                    <p class="card-text line-clamp"><?=lang('copy_trading_benefit_5_description')?></p>
                                 </div>
                             </div>
                         </div>
@@ -220,8 +220,8 @@
                                     <i class="fa-2x fa-solid fa-user-tie mt-1"></i>
                                 </div>
                                 <div>
-                                    <h5 class="card-title text-primary">CUSTOMIZABLE <br />ALLOCATION</h5>
-                                    <p class="card-text line-clamp">Customize and allocate funds based on your risk tolerance and investment goals to copied trades.</p>
+                                    <h5 class="card-title text-primary"><?=lang('copy_trading_benefit_6_title_1')?> <br /><?=lang('copy_trading_benefit_6_title_2')?></h5>
+                                    <p class="card-text line-clamp"><?=lang('copy_trading_benefit_6_description')?></p>
                                 </div>
                             </div>
                         </div>
@@ -232,8 +232,8 @@
     </div>
     <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://copytrader.yamarkets.com/portal/registration/provider" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms">Become a master</a>
-                    <a href="https://copytrader.yamarkets.com/portal/registration/subscription" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="100ms">Become a follower</a>
+                    <a href="https://copytrader.yamarkets.com/portal/registration/provider" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('copy_trading_section_become_master')?></a>
+                    <a href="https://copytrader.yamarkets.com/portal/registration/subscription" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="100ms"><?=lang('copy_trading_section_become_follower')?></a>
 
                 </div>
 </section>
@@ -242,7 +242,7 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h2 class="title wow fadeInUp">Copy Trading Faqs</h2>
+                <h2 class="title wow fadeInUp"><?=lang('')?>Copy Trading Faqs</h2>
             </div>
             <div class="col-12">
                 <div class="accordion" id="accordionExample">
