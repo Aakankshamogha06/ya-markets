@@ -1775,7 +1775,7 @@ $user_country = getUserCountryByIp($CI);
 
                                                                 <a href="<?= base_url() ?><?=lang('langurl')?>/pamm">
 
-                                                                    <i class="fa-solid fa-percent"></i> <?=lang('')?>pamm
+                                                                    <i class="fa-solid fa-percent"></i> <?=lang('pamm')?>
 
                                                                 </a>
 
