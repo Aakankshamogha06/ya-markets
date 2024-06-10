@@ -69,10 +69,10 @@
     <div class="container position-relative z-1">
         <div class="row gy-4 align-items-center">
             <div class="col-lg-5 text-center text-lg-start">
-                <h5 class="text-primary mb-3 fw-bold text-uppercase wow fadeInDown">Quarterly 1st Round</h5>
-                <h2 class="title mb-3 wow fadeInUp">Stars IB Partners <span class="text-gradient">Contest&nbsp;Yearly</span></h2>
-                <p class="mb-4 wow fadeInup">Participate in the YaMarkets Star IB Partner Contest, compete in quarterly rounds for your chance to rise among the top 40 Star IB Partners, and get an exclusive invitation to our prestigious International Gala Dinner featuring world-class entertainment, networking opportunities, and fine dining.</p>
-                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp">Join Now</a>
+                <h5 class="text-primary mb-3 fw-bold text-uppercase wow fadeInDown"><?=lang('star_ib_partners_stars_ib_contest_title')?></h5>
+                <h2 class="title mb-3 wow fadeInUp"><?=lang('star_ib_partners_stars_ib_contest_subtitle_1')?> <span class="text-gradient"><?=lang('star_ib_partners_stars_ib_contest_subtitle_2')?></span></h2>
+                <p class="mb-4 wow fadeInup"><?=lang('star_ib_partners_stars_ib_contest_description')?></p>
+                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp"><?=lang('star_ib_partners_stars_ib_contest_join_button')?></a>
             </div>
             <div class="col-lg-6 offset-lg-1 text-center">
                 <figure class="mb-0 border-anim mx-auto">
@@ -91,7 +91,7 @@
         <div class="row gy-4 gx-xl-5 align-items-center">
             <div class="col-lg-8 offset-lg-2 text-center">
                 <h2 class="mb-3 wow fadeInUp">
-                    <span class="d-lg-block">TOP 10 Partners will be qualified for </span>
+                    <span class="d-lg-block"><?=lang('')?>TOP 10 Partners will be qualified for </span>
                     <span class="text-gradient">Ib Partners Contest and for Gala Dinner</span>
                 </h2>
                 <p class="wow fadeInUp">International Yearly Gala Dinner with Top 40 Stars Partners </p>

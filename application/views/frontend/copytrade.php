@@ -242,7 +242,7 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h2 class="title wow fadeInUp"><?=lang('')?>Copy Trading Faqs</h2>
+                <h2 class="title wow fadeInUp"><?=lang('copy_trading_faqs_heading')?></h2>
             </div>
             <div class="col-12">
                 <div class="accordion" id="accordionExample">
@@ -250,12 +250,12 @@
                         <div class="accordion-item">
                             <h4 class="accordion-header">
                                 <button class="accordion-button bg-transparent text-primary fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How does copy trading work?
+                                <?=lang('copy_trading_faqs_question_1')?>
                                 </button>
                             </h4>
                             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body text-white opacity-50">
-                                    <p>Copy trading allows users to replicate trades made by experienced traders automatically. When a chosen trader executes a trade, it is mirrored in the follower's account.</p>
+                                    <p><?=lang('copy_trading_faqs_answer_1')?></p>
                                 </div>
                             </div>
                         </div>
@@ -264,12 +264,12 @@
                         <div class="accordion-item">
                             <h4 class="accordion-header">
                                 <button class="accordion-button collapsed bg-transparent text-primary fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                    What level of control do I have in copy trading?
+                                <?=lang('copy_trading_faqs_question_2')?>
                                 </button>
                             </h4>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body text-white opacity-50">
-                                    <p>While copy trading automates trade replication, users have control over choosing traders, allocating funds, and stopping or adjusting copied trades.</p>
+                                    <p><?=lang('copy_trading_faqs_answer_2')?></p>
                                 </div>
                             </div>
                         </div>
@@ -278,12 +278,12 @@
                         <div class="accordion-item">
                             <h4 class="accordion-header">
                                 <button class="accordion-button collapsed bg-transparent text-primary fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                    Is copy trading suitable for beginners?
+                                <?=lang('copy_trading_faqs_question_3')?>
                                 </button>
                             </h4>
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body text-white opacity-50">
-                                    <p>Yes, copy trading can benefit beginners by allowing them to learn from expert strategies and potentially earn while gaining market insights. However, understanding risks is essential.</p>
+                                    <p><?=lang('copy_trading_faqs_answer_3')?></p>
                                 </div>
                             </div>
                         </div>
@@ -298,15 +298,15 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h5 class="text-primary fw-bold">Your Partner in Trading Success</h5>
-                <h2 class="title">Register Now for <span class="text-gradient">Easy </span>
-                    <div class="d-lg-block text-gradient">Copy Trading</div>
+                <h5 class="text-primary fw-bold"><?=lang('system_section_heading')?></h5>
+                <h2 class="title"><?=lang('system_section_subheading_1')?> <span class="text-gradient"><?=lang('system_section_subheading_2')?> </span>
+                    <div class="d-lg-block text-gradient"><?=lang('system_section_subheading_3')?></div>
                 </h2>
             </div>
             <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms">Open live account</a>
-                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms">Open demo account</a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('system_section_button_live_account')?></a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms"><?=lang('system_section_button_demo_account')?></a>
                 </div>
             </div>
         </div>

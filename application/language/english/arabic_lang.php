@@ -1549,10 +1549,10 @@ $lang['claim_bonus_submit_button'] = 'إرسال';
 <!-- tradabel-bonus -->
 
 <?php
-$lang['tradable_bonus_get_bonus_title_1'] = 'احصل على 20%';
+$lang['tradable_bonus_get_bonus_title_1'] = 'احصل على 10%';
 $lang['tradable_bonus_get_bonus_title_2'] = 'مكافأة قابلة للتداول';
 
-$lang['tradable_bonus_get_bonus_description'] = 'مصممة للمتداولين الجدد، تتيح برنامج مكافأة الـ20% القابلة للتداول للمتداولين حماية حساباتهم من المواقف غير المواتية في السوق ويساعدهم في التعرض للخسائر بهذه المكافأة على الإيداع.';
+$lang['tradable_bonus_get_bonus_description'] = 'مصممة للمتداولين الجدد، تتيح برنامج مكافأة الـ10% القابلة للتداول للمتداولين حماية حساباتهم من المواقف غير المواتية في السوق ويساعدهم في التعرض للخسائر بهذه المكافأة على الإيداع.';
 $lang['tradable_bonus_signup_receive_bonus'] = 'سجّل واحصل على';
 $lang['tradable_bonus_signup_receive_bonus_message'] = 'سجّل واحصل على';
 $lang['tradable_bonus_tradable_bonus'] = 'مكافأة قابلة للتداول';
@@ -1807,9 +1807,9 @@ $lang['tradable_bonus_trade_forex_no'] = 'لا';
 $lang['tradable_bonus_submit_button'] = 'إرسال';
 
 
-$lang['tradable_bonus_tradable_bonus_title'] = 'احصل على 20%';
+$lang['tradable_bonus_tradable_bonus_title'] = 'احصل على 10%';
 $lang['tradable_bonus_tradable_bonus_title_1'] = 'مكافأة قابلة للتداول';
-$lang['tradable_bonus_tradable_bonus_description'] = 'يمكن استخدام هذه المكافأة كهامش إضافي. سيكون برنامجنا -للمكافأة التداولية بنسبة 20%- متاحًا لفترة محدودة فقط. اغتنم الفرصة وتداول حجومًا أكبر لتحقيق المزيد من الأرباح بأحد أعلى معدلات المكافأة في السوق بالحصول على هذه المكافأة التجارية الترحيبية. اخطو خطوتك الأولى في التداول باستخدام مكافأة الإيداع لتحقق الصدارة. نحن نطور ونحسن برنامجنا لمكافأة الإيداع لعملائنا الكرام.';
+$lang['tradable_bonus_tradable_bonus_description'] = 'يمكن استخدام هذه المكافأة كهامش إضافي. سيكون برنامجنا -للمكافأة التداولية بنسبة 10%- متاحًا لفترة محدودة فقط. اغتنم الفرصة وتداول حجومًا أكبر لتحقيق المزيد من الأرباح بأحد أعلى معدلات المكافأة في السوق بالحصول على هذه المكافأة التجارية الترحيبية. اخطو خطوتك الأولى في التداول باستخدام مكافأة الإيداع لتحقق الصدارة. نحن نطور ونحسن برنامجنا لمكافأة الإيداع لعملائنا الكرام.';
 
 $lang['tradable_bonus_welcome_bonus_boost_title'] = 'كيف تحقق مكافأة الترحيب الفائدة القصوى من';
 $lang['tradable_bonus_welcome_bonus_boost_title'] = 'إيداعك؟';
@@ -1836,7 +1836,7 @@ $lang['tradable_bonus_start_trading_description'] = "والآن! أنت مستع
 
 $lang['tradable_bonus_terms_and_conditions_title'] = 'الشروط والأحكام';
 $lang['tradable_bonus_promotion_period'] = 'تمتد فترة العرض من 1 يناير 2024 إلى 30 إبريل 2024';
-$lang['tradable_bonus_tradable_bonus_range'] = 'مكافأة قابلة للتداول بنسبة 20% من الإيداع من 100 دولار إلى 10000 دولار.';
+$lang['tradable_bonus_tradable_bonus_range'] = 'مكافأة قابلة للتداول بنسبة 10% من الإيداع من 100 دولار إلى 10000 دولار.';
 $lang['tradable_bonus_bonus_program_purpose'] = 'يهدف هذا البرنامج لحماية الحسابات من فترات انخفاض السيولة. يمكن إضافة المكافأة إلى حساب التداول ويمكن أيضًا استخدامها كهامش إضافي. .';
 $lang['tradable_bonus_bonus_deposit_auto'] = 'سيتم إيداع المكافأة القابلة للتداول بنسبة 20٪ تلقائيًا في الحساب التجاري المعني مع مبلغ الإيداع.';
 $lang['tradable_bonus_bonus_applied_every_deposit'] = 'سيتم تطبيق المكافأة الـقابلة للتداول بنسبة  20٪  على كل إيداع للحساب التجاري المعني.';

@@ -28,8 +28,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 pb-lg-3 text-center">
-                <h2 class="title mb-3 wow fadeInDown" data-wow-delay="200ms"><span class="text-gradient">YaMarkets&nbsp;</span>PAMM Trading</h2>
-                <p class="wow fadeInUp">Optimize your investments with our PAMM trading platform guided by expert traders</p>
+                <h2 class="title mb-3 wow fadeInDown" data-wow-delay="200ms"><span class="text-gradient"><?=lang('pamm_page_heading_1')?>&nbsp;</span><?=lang('pamm_page_heading_2')?></h2>
+                <p class="wow fadeInUp"><?=lang('pamm_page_subheading')?></p>
             </div>
         </div>
     </div>
@@ -42,8 +42,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-3 text-center">
-                <h2 class="title mb-3 wow fadeInUp">What is <span class="text-gradient">PAMM Trading</span>?</h2>
-                <p class="wow fadeInUp" data-wow-delay="100ms">PAMM, or Percentage Allocation Management Module, is a mechanism that connects investors with traders, facilitating earnings through collective trading within a single account. This approach allows for a diversified portfolio managed by skilled traders.</p>
+                <h2 class="title mb-3 wow fadeInUp"><?=lang('pamm_trading_heading_1')?> <span class="text-gradient"><?=lang('pamm_trading_heading_2')?></span>?</h2>
+                <p class="wow fadeInUp" data-wow-delay="100ms"><?=lang('pamm_trading_description')?></p>
             </div>
         </div>
     </div>
@@ -54,22 +54,22 @@
         <div class="row gy-4">
             <div class="col-md-6">
                 <div class="linear-border p-3 bg-linear-gradient h-100 rounded wow fadeInLeft">
-                    <h3> For Masters (Experienced Traders)</h3>
-                    <p>If you have a well-established trading strategy and seek additional earnings, consider joining our PAMM solution as a master. Joining a PAMM solution as a master allows you to trade on behalf of multiple investors under a consolidated account.</p>
+                    <h3> <?=lang('for_masters_heading')?></h3>
+                    <p><?=lang('for_masters_description_1')?></p>
                     <p>
-                        <small class="text-primary">As a master, you'll receive an additional percentage from every investor account, boosting your income based on successful trades.</small>
+                        <small class="text-primary"><?=lang('for_masters_description_2')?></small>
                     </p>
-                    <a href="https://pamm.yamarkets.com/app/auth/manager" class="btn btn-primary">Become a Master</a>
+                    <a href="https://pamm.yamarkets.com/app/auth/manager" class="btn btn-primary"><?=lang('for_masters_link')?></a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="linear-border p-3 bg-linear-gradient h-100 rounded wow fadeInRight">
-                    <h3> For Investors</h3>
-                    <p>Let experienced traders manage your funds, and you'll earn a share of profits from successful trades. Joining PAMM as an investor is a great way for beginners or hesitant traders to start.</p>
+                    <h3> <?=lang('for_investors_heading')?></h3>
+                    <p><?=lang('for_investors_description_1')?></p>
                     <p>
-                        <small class="text-primary">Just add your funds to a money manager of your choice and get returns based on your contribution to the master PAMM account.</small>
+                        <small class="text-primary"><?=lang('for_investors_description_2')?></small>
                     </p>
-                    <a href="https://pamm.yamarkets.com/app/auth/investor" class="btn btn-primary">Start Investing</a>
+                    <a href="https://pamm.yamarkets.com/app/auth/investor" class="btn btn-primary"><?=lang('for_investors_link')?></a>
                 </div>
             </div>
         </div>
@@ -81,48 +81,47 @@
         <div class="row gy-4">
             <div class="col-md-6 col-lg-5">
                 <img src="<?=base_url()?>/public/web/img/pamm-trading.png" alt="Key to Markets PAMM" class="img-fluid rounded mb-3 wow fadeInLeft" />
-                <h3 class="mb-3 wow fadeInLeft" data-wow-delay="100ms">YaMarkets<span class="text-gradient">PAMM Trading</span></h3>
-                <p class="wow fadeInLeft" data-wow-delay="200ms"><strong class="text-primary">The YaMarkets PAMM</strong>, or Percentage Allocation Management Module, is a software tool enabling traders to share their strategies with interested investors.
-                    Investors can access their PAMM accounts using a web-based interface, requiring only a standard web browser on any device (be it mobile or desktop), eliminating the need to install MT4.</p>
+                <h3 class="mb-3 wow fadeInLeft" data-wow-delay="100ms"><?=lang('pamm_page_heading_1')?><span class="text-gradient"><?=lang('pamm_page_heading_2')?></span></h3>
+                <p class="wow fadeInLeft" data-wow-delay="200ms"><?=lang('pamm_page_description_1')?><strong class="text-primary"><?=lang('pamm_page_description_2')?></strong><?=lang('pamm_page_description_3')?></p>
             </div>
             <div class="col-md-6 offset-lg-1">
-                <h3 class="mb-3 wow fadeInRight">Benefits of <span class="text-gradient">PAMM software</span>:</h3>
+                <h3 class="mb-3 wow fadeInRight"><?=lang('pamm_benefits_heading_1')?> <span class="text-gradient"><?=lang('pamm_benefits_heading_2')?></span>:</h3>
                 <ul class="list-unstyled">
                     <li class="d-flex gap-2 mb-2 wow fadeInRight" data-wow-delay="100ms">
                         <span>
                             <i class="fa-regular fa-circle-check text-primary"></i>
                         </span>
-                        <span><strong class="text-primary">Accessibility and Convenience:</strong> The PAMM system offers a user-friendly web-based interface accessible via any device with a standard web browser, eliminating the need for MT4 installation.</span>
+                        <span><strong class="text-primary"><?=lang('pamm_page_benefit_1_1')?></strong><?=lang('pamm_page_benefit_1_2')?></span>
                     </li>
                     <li class="d-flex gap-2 mb-2 wow fadeInRight" data-wow-delay="200ms">
                         <span>
                             <i class="fa-regular fa-circle-check text-primary"></i>
                         </span>
-                        <span><strong class="text-primary">For Traders:</strong> They can maximize profits, establish a certified track record, and potentially transition into professional fund management.</span>
+                        <span><strong class="text-primary"><?=lang('pamm_page_benefit_2_1')?></strong> <?=lang('pamm_page_benefit_2_2')?></span>
                     </li>
                     <li class="d-flex gap-2 mb-2 wow fadeInRight" data-wow-delay="300ms">
                         <span>
                             <i class="fa-regular fa-circle-check text-primary"></i>
                         </span>
-                        <span><strong class="text-primary">For Investors:</strong> Access to top-performing trading strategies shared by seasoned traders while retaining control over their accounts.</span>
+                        <span><strong class="text-primary"><?=lang('pamm_page_benefit_3_1')?></strong> <?=lang('pamm_page_benefit_3_2')?></span>
                     </li>
                     <li class="d-flex gap-2 mb-2 wow fadeInRight" data-wow-delay="400ms">
                         <span>
                             <i class="fa-regular fa-circle-check text-primary"></i>
                         </span>
-                        <span><strong class="text-primary">Flexibility and Control:</strong> Investors have the freedom to swiftly join or exit a PAMM account, typically completing the process within a few business hours. The hourly NAV calculation ensures transparent profit/loss allocation for all trades.</span>
+                        <span><strong class="text-primary"><?=lang('pamm_page_benefit_4_1')?></strong> <?=lang('pamm_page_benefit_4_2')?></span>
                     </li>
                     <li class="d-flex gap-2 mb-2 wow fadeInRight" data-wow-delay="500ms">
                         <span>
                             <i class="fa-regular fa-circle-check text-primary"></i>
                         </span>
-                        <span><strong class="text-primary">Customization:</strong> Investors autonomously select PAMM accounts to join, while managers can establish flexible fee structures.</span>
+                        <span><strong class="text-primary"><?=lang('pamm_page_benefit_5_1')?></strong> <?=lang('pamm_page_benefit_5_2')?></span>
                     </li>
                     <li class="d-flex gap-2 mb-2 wow fadeInRight" data-wow-delay="600ms">
                         <span>
                             <i class="fa-regular fa-circle-check text-primary"></i>
                         </span>
-                        <span><strong class="text-primary">Security:</strong> The system safeguards managers' strategy intellectual property, protecting it from potential reverse engineering by investors.</span>
+                        <span><strong class="text-primary"><?=lang('pamm_page_benefit_6_1')?></strong> <?=lang('pamm_page_benefit_6_2')?></span>
                     </li>
                 </ul>
             </div>
@@ -134,15 +133,15 @@
     <div class="container">
         <div class="row gy-4 justify-content-center">
             <div class="col-12 text-center">
-                <h2 class="title mb-4 wow fadeInUp"><span class="text-gradient">Get started</span> with PAMM Trading</h2>
+                <h2 class="title mb-4 wow fadeInUp"><span class="text-gradient"><?=lang('withdraw_section_heading_1')?></span> <?=lang('withdraw_section_heading_2')?></h2>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="border text-center border-warning rounded p-3 overflow-hidden h-100 wow fadeInUp" data-wow-delay="100ms">
                     <div class="icon text-primary mb-3 mx-auto">
                         <i class="fa-solid fa-user-plus fa-2x"></i>
                     </div>
-                    <h4 class="text-primary">Sign Up to YaMarkets</h4>
-                    <p>Register with YaMarkets by providing basic personal information and contact details on our registration form. Ensure email verification by clicking the link sent to your private inbox.</p>
+                    <h4 class="text-primary"><?=lang('withdraw_section_step_1_title')?></h4>
+                    <p><?=lang('withdraw_section_step_1_description')?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -150,8 +149,8 @@
                     <div class="icon text-primary mb-3 mx-auto">
                         <i class="fa-solid fa-cloud-arrow-up fa-2x"></i>
                     </div>
-                    <h4 class="text-primary">Submit Your Docs</h4>
-                    <p>Submit your official documents by logging into your private portal and uploading a recent proof of address (dated within 3 months) along with a government-issued ID.</p>
+                    <h4 class="text-primary"><?=lang('withdraw_section_step_2_title')?></h4>
+                    <p><?=lang('withdraw_section_step_2_description')?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -159,8 +158,8 @@
                     <div class="icon text-primary mb-3 mx-auto">
                         <i class="fa-solid fa-file-invoice fa-2x"></i>
                     </div>
-                    <h4 class="text-primary">Open Live PAMM Account</h4>
-                    <p>Initiate a PAMM account by clicking 'OPEN LIVE ACCOUNT' in the portal and choosing PAMM from the dropdown menu.</p>
+                    <h4 class="text-primary"><?=lang('withdraw_section_step_3_title')?></h4>
+                    <p><?=lang('withdraw_section_step_3_description')?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -168,8 +167,8 @@
                     <div class="icon text-primary mb-3 mx-auto">
                         <i class="fa-solid fa-person-circle-plus fa-2x"></i>
                     </div>
-                    <h4 class="text-primary">Deposit Fund</h4>
-                    <p>Deposit funds into your new PAMM account to gain access to the portal. Money managers are required to deposit a minimum of USD 500, while the minimum deposit for investors is USD 50. Your earned returns will also be deposited into this account.</p>
+                    <h4 class="text-primary"><?=lang('withdraw_section_step_4_title')?></h4>
+                    <p><?=lang('withdraw_section_step_4_description')?></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -177,8 +176,8 @@
                     <div class="icon text-primary mb-3 mx-auto">
                         <i class="fa-solid fa-walkie-talkie fa-2x"></i>
                     </div>
-                    <h4 class="text-primary">Login to the PAMM Account</h4>
-                    <p>Access the PAMM portal by logging in using the MT4/5 number and password sent to you via email. Investors can review Money Managers based on their performance, while managers can create their own offers.</p>
+                    <h4 class="text-primary"><?=lang('withdraw_section_step_5_title')?></h4>
+                    <p><?=lang('withdraw_section_step_5_description')?></p>
                 </div>
             </div>
         </div>
@@ -189,7 +188,7 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h2 class="title wow fadeInUp">PAMM Trading <span class="text-gradient">FAQ's</span></h2>
+                <h2 class="title wow fadeInUp"><?=lang('pamm_faq_heading_1')?> <span class="text-gradient"><?=lang('pamm_faq_heading_2')?></span></h2>
             </div>
             <div class="col-12">
                 <div class="accordion" id="accordionExample">
@@ -197,12 +196,12 @@
                         <div class="accordion-item">
                             <h4 class="accordion-header">
                                 <button class="accordion-button bg-transparent text-primary fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Is there a minimum investment required for a YaMarkets PAMM account?
+                                <?=lang('pamm_faq_question_1')?>
                                 </button>
                             </h4>
                             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body text-white opacity-50">
-                                    <p>Yes, YaMarkets PAMM accounts have minimum investment requirements. For money managers, the minimum fee to open an account is USD 500, while for investors, the minimum initial deposit is USD 50. These minimum amounts are necessary to start and access the PAMM portal.</p>
+                                    <p><?=lang('pamm_faq_answer_1')?></p>
                                 </div>
                             </div>
                         </div>
@@ -211,12 +210,12 @@
                         <div class="accordion-item">
                             <h4 class="accordion-header">
                                 <button class="accordion-button collapsed bg-transparent text-primary fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                Can investors choose their preferred money managers in YaMarkets PAMM?
+                                <?=lang('pamm_faq_question_2')?>
                                 </button>
                             </h4>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body text-white opacity-50">
-                                    <p>Yes, investors using YaMarkets PAMM accounts have the autonomy to select their preferred money managers. They can browse through available money managers based on their performance and make informed decisions regarding where to allocate their funds.</p>
+                                    <p><?=lang('pamm_faq_answer_2')?></p>
                                 </div>
                             </div>
                         </div>
@@ -225,12 +224,12 @@
                         <div class="accordion-item">
                             <h4 class="accordion-header">
                                 <button class="accordion-button collapsed bg-transparent text-primary fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                Are there any fees associated with YaMarkets PAMM accounts?
+                                <?=lang('pamm_faq_question_3')?>
                                 </button>
                             </h4>
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body text-white opacity-50">
-                                    <p>YaMarkets PAMM accounts may involve fees. Money managers can set flexible fee structures, often referred to as "offers," which determine the charges for their services. Investors should review these fee structures when choosing a money manager to understand any associated costs.</p>
+                                    <p><?=lang('pamm_faq_answer_3')?></p>
                                 </div>
                             </div>
                         </div>
@@ -246,8 +245,8 @@
         <div class="row gy-4">
             <div class="col-12">
                 
-                <p>YaMarkets does not offer any financial advice, asset management or portfolio management service. None of our employees will ever solicits any client or prospective clients to make any_particular investment. If you receive phone calls or emails from someone using our company's name soliciting investments and/or promising certain profits then please let us know immediately</p>
-            <p>NEVER REVEAL THE PASSWORD OF YOUR ACCOUNT AND NEVER SEND MONEY TO ANY THIRD PARTY.</p>
+                <p><?=lang('disclaimer_paragraph_1')?></p>
+            <p><?=lang('disclaimer_paragraph_2')?></p>
             </div>
         </div>
     </div>
@@ -257,14 +256,14 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h5 class="text-primary fw-bold">Supported Payment Systems</h5>
-                <h2 class="title">Register Now for <span class="text-gradient">Seamless PAMM Trading</span>
+                <h5 class="text-primary fw-bold"><?=lang('supported_payment_heading')?></h5>
+                <h2 class="title"><?=lang('supported_payment_subheading_1')?> <span class="text-gradient"><?=lang('supported_payment_subheading_2')?></span>
                 </h2>
             </div>
             <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms">Open live account</a>
-                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms">Open demo account</a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('system_section_button_live_account')?></a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms"><?=lang('system_section_button_demo_account')?></a>
                 </div>
             </div>
         </div>

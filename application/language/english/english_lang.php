@@ -1546,10 +1546,10 @@ $lang['claim_bonus_submit_button'] = 'Submit';
 <!-- tradable-bonus -->
 
 <?php
-$lang['tradable_bonus_get_bonus_title_1'] = 'Get 20%';
+$lang['tradable_bonus_get_bonus_title_1'] = 'Get 10%';
 $lang['tradable_bonus_get_bonus_title_2'] = 'Tradable Bonus';
 
-$lang['tradable_bonus_get_bonus_description'] = 'Designed for New traders, the 20% Tradable bonus program allows Traders to protect their accounts from unfavorable situations in the market and helps them in draw-downs with this deposit bonus.';
+$lang['tradable_bonus_get_bonus_description'] = 'Designed for New traders, the 10% Tradable bonus program allows Traders to protect their accounts from unfavorable situations in the market and helps them in draw-downs with this deposit bonus.';
 $lang['tradable_bonus_signup_receive_bonus'] = 'Sign up and receive';
 $lang['tradable_bonus_signup_receive_bonus_message'] = 'Sign up and receive';
 $lang['tradable_bonus_tradable_bonus'] = 'Tradable Bonus';
@@ -1804,9 +1804,9 @@ $lang['tradable_bonus_trade_forex_no'] = 'No';
 $lang['tradable_bonus_submit_button'] = 'Submit';
 
 
-$lang['tradable_bonus_tradable_bonus_title'] = 'Get 20%';
+$lang['tradable_bonus_tradable_bonus_title'] = 'Get 10%';
 $lang['tradable_bonus_tradable_bonus_title_1'] = 'Tradable Bonus';
-$lang['tradable_bonus_tradable_bonus_description'] = 'This bonus can be lost and used as an additional margin. Our 20% Trading bonus program will be available for a limited time only. Take advantage and trade larger volumes to gain more profit with one of the highest bonus rates in the market with the help of this welcome trading bonus. Take your first step into trading with our deposit bonus to get ahead of everyone else. We are extending and improving our Deposit Bonus program for our valued clients.';
+$lang['tradable_bonus_tradable_bonus_description'] = 'This bonus can be lost and used as an additional margin. Our 10% Trading bonus program will be available for a limited time only. Take advantage and trade larger volumes to gain more profit with one of the highest bonus rates in the market with the help of this welcome trading bonus. Take your first step into trading with our deposit bonus to get ahead of everyone else. We are extending and improving our Deposit Bonus program for our valued clients.';
 
 $lang['tradable_bonus_welcome_bonus_boost_title_1'] = 'How the Welcome';
 $lang['tradable_bonus_welcome_bonus_boost_title_2'] = 'Bonus boost your deposit?';
@@ -1833,19 +1833,19 @@ $lang['tradable_bonus_start_trading_description'] = "There you go! You're trade 
 
 $lang['tradable_bonus_terms_and_conditions_title'] = 'Terms & Conditions';
 $lang['tradable_bonus_promotion_period'] = 'The promotion runs from the 1st January 2024 to 30th April 2024';
-$lang['tradable_bonus_tradable_bonus_range'] = 'Tradable Bonus 20% from 100USD upto 10,000USD Deposit.';
+$lang['tradable_bonus_tradable_bonus_range'] = 'Tradable Bonus 10% from 100USD upto 10,000USD Deposit.';
 $lang['tradable_bonus_bonus_program_purpose'] = 'This Bonus Program is intended to protect accounts from drawdown periods. The Bonus can be lost with no limitations and also be used as margin.';
-$lang['tradable_bonus_bonus_deposit_auto'] = 'The 20% Tradable Bonus will be deposited automatically into the relevant Trading Account with the deposit amount.';
-$lang['tradable_bonus_bonus_applied_every_deposit'] = 'The 20% Tradable Bonus will be applied on EVERY deposit for the relevant Trading Account.';
+$lang['tradable_bonus_bonus_deposit_auto'] = 'The 10% Tradable Bonus will be deposited automatically into the relevant Trading Account with the deposit amount.';
+$lang['tradable_bonus_bonus_applied_every_deposit'] = 'The 10% Tradable Bonus will be applied on EVERY deposit for the relevant Trading Account.';
 $lang['tradable_bonus_bonus_funds_expiry'] = 'Every credit bonus funds will have 30 days expiry. Credit will auto remove from the trading account.';
 $lang['tradable_bonus_max_bonus_usage'] = 'Clients with depleted balances from losses can continue trading with the Bonus for a Maximum of 7 Days, to retain the bonus a re-deposit is mandatory within 7 days.';
-$lang['tradable_bonus_one_bonus_account'] = 'This 20% Tradable Bonus Program can only be applied to one account per client.';
-$lang['tradable_bonus_bonus_as_stop_loss'] = 'The 20% Tradable Bonus can be used as stop loss as there is no limitation in using it for trading.';
+$lang['tradable_bonus_one_bonus_account'] = 'This 10% Tradable Bonus Program can only be applied to one account per client.';
+$lang['tradable_bonus_bonus_as_stop_loss'] = 'The 10% Tradable Bonus can be used as stop loss as there is no limitation in using it for trading.';
 $lang['tradable_bonus_max_total_bonus'] = 'The maximum total Tradable Bonus awarded is $5000 per Client.';
 $lang['tradable_bonus_min_deposit_apply_bonus'] = 'The Tradable Bonus only applies on deposits over $10.';
-$lang['tradable_bonus_bonus_removal_withdrawal'] = 'In the case that the Client will perform any withdrawal out of a Trading Account that has the 20% Tradable Bonus in it, a corresponding Bonus removal will automatically take place.';
-$lang['tradable_bonus_bonus_removal_formula'] = 'The formula used by the system regarding Bonus Removals upon a withdrawal request, is the following: Withdrawal Amount X 20%.';
-$lang['tradable_bonus_bonus_applied_to_specific_account'] = 'The ‘Tradable Bonus’ will only be applied to the trading account that received the initial 20% Tradable Bonus.';
+$lang['tradable_bonus_bonus_removal_withdrawal'] = 'In the case that the Client will perform any withdrawal out of a Trading Account that has the 10% Tradable Bonus in it, a corresponding Bonus removal will automatically take place.';
+$lang['tradable_bonus_bonus_removal_formula'] = 'The formula used by the system regarding Bonus Removals upon a withdrawal request, is the following: Withdrawal Amount X 10%.';
+$lang['tradable_bonus_bonus_applied_to_specific_account'] = 'The ‘Tradable Bonus’ will only be applied to the trading account that received the initial 10% Tradable Bonus.';
 $lang['tradable_bonus_bonus_abuse'] = 'If the Company suspects or has reason to believe that a Client has abused the terms and conditions of this Bonus Program by hedging his positions internally (using other trading accounts held with Company) or externally (using other trading accounts held with other brokers), then the Company reserves the right, without the Client’s consent, to withdraw immediately the Tradable Bonus (and the Additional Bonus if applicable ) from the Client’s trading account(s) or from his winning hedged accounts.';
 $lang['tradable_bonus_multiple_accounts'] = 'If the Company suspects or has reason to believe that a Client has more than one account under this Bonus Program, then the Company reserves the right, without the Client’s consent to withdraw immediately the Tradable Bonus from the Client’s trading account(s). In the event that any stop losses are incurred as a result of such a removal the Company will not be held liable.';
 $lang['tradable_bonus_risk_warning'] = 'The Client acknowledges that Forex and CFDs are leveraged products which involve a high level of risk. When trading in such products, it is possible for Clients to lose all their capital. These products may not be suitable for everyone and Clients should ensure that they understand the risks involved. Electing to utilize this Bonus Offer may increase the risk of trading. Clients should seek independent advice if necessary.';

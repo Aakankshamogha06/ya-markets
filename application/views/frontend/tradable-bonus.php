@@ -84,21 +84,19 @@
         <div class="row gy-4 align-items-center">
             <div class="col-lg-6 text-center text-lg-start">
                 <h1 class="hero-title mb-4 wow fadeInLeft">
-                    <span class="text-gradient">Get 10%</span>
-                    <span class="d-block">Tradable Bonus</span>
+                    <span class="text-gradient"><?=lang('tradable_bonus_get_bonus_title_1')?></span>
+                    <span class="d-block"><?=lang('tradable_bonus_get_bonus_title_2')?></span>
                 </h1>
                 <p class=" mb-0 wow fadeInLeft" data-wow-delay="200ms">
-                    Designed for New traders, the 10% Tradable bonus program allows
-                    Traders to protect their accounts from unfavorable situations in
-                    the market and helps them in draw-downs with this deposit bonus.
+                <?=lang('tradable_bonus_get_bonus_description')?>
                 </p>
             </div>
             <div class="col-lg-6 col-xl-5 offset-xl-1">
                 <div class="hero-form px-3 py-4 rounded-2">
                     <h3 class="text-center mb-3 wow fadeInRight">
-                        Sign up and receive
+                    <?=lang('tradable_bonus_signup_receive_bonus')?>
                         <span class="text-gradient fw-semibold">10%</span>
-                        Tradable&nbsp;Bonus
+                        <?=lang('tradable_bonus_tradable_bonus')?>
                     </h3>
                     
                       <form action="<?= base_url('website/tradable_bonus_submit_data'); ?>" method="post" class="wow fadeInRight" data-wow-delay="200ms">
@@ -357,12 +355,12 @@
                         </div>
                         <div class="mb-3">
                             <select class="form-select" name="trade" required>
-                                <option value="">Do you Trade in forex:</option>
-                                <option value="yes">Yes</option>
-                                <option value="no">No</option>
+                                <option value=""><?=lang('tradable_bonus_trade_forex_prompt')?></option>
+                                <option value="yes"><?=lang('tradable_bonus_trade_forex_yes')?></option>
+                                <option value="no"><?=lang('tradable_bonus_trade_forex_no')?></option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-outline-primary">Submit</button>
+                        <button type="submit" class="btn btn-outline-primary"><?=lang('tradable_bonus_submit_button')?></button>
                     </form>
                 </div>
             </div>
@@ -378,17 +376,10 @@
         <div class="row gy-5">
             <div class="col-lg-8 offset-lg-2 text-center">
                 <h2 class="title mb-3 wow fadeInUp">
-                    <span class="text-gradient">Get 10%</span> Tradable Bonus
+                    <span class="text-gradient"><?=lang('tradable_bonus_tradable_bonus_title')?></span> <?=lang('tradable_bonus_tradable_bonus_title_1')?>
                 </h2>
                 <p class="mb-0 wow fadeInUp" data-wow-delay="200ms">
-                    This bonus can be lost and used as an additional margin. Our 10%
-                    Trading bonus program will be available for a limited time only.
-                    Take advantage and trade larger volumes to gain more profit with
-                    one of the highest bonus rates in the market with the help of
-                    this welcome trading bonus. Take your first step into trading
-                    with our deposit bonus to get ahead of everyone else. We are
-                    extending and improving our Deposit Bonus program for our valued
-                    clients.
+                <?=lang('tradable_bonus_tradable_bonus_description')?>
                 </p>
             </div>
         </div>
@@ -399,27 +390,27 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-8 offset-lg-2 text-center">
-                <h2 class="title mb-4 wow fadeInUp">How the Welcome <span class="text-gradient">Bonus boost your&nbsp;deposit?</span></h2>
+                <h2 class="title mb-4 wow fadeInUp"><?=lang('tradable_bonus_welcome_bonus_boost_title_1')?> <span class="text-gradient"><?=lang('tradable_bonus_welcome_bonus_boost_title_2')?></span></h2>
             </div>
             <div class="col-lg-8 offset-lg-2">
                 <div class="p-3 shadow-lg rounded-3 wow fadeInUp" style="background: #ffffff1c;">
                     <div class="d-flex justify-content-between mb-3">
-                        <p class="mb-0 fw-semibold fs-5 text-primary">Your deposit</p>
+                        <p class="mb-0 fw-semibold fs-5 text-primary"><?=lang('tradable_bonus_your_deposit')?></p>
                         <div class="fw-semibold fs-5">$<span class="value_id">100</span></div>
                     </div>
                     <input type="range" min="100" max="50000" step="1" value="100" class="w-100 form-range" />
                     <div class="d-flex justify-content-between mb-3">
-                        <span>min-$100</span>
-                        <span>max-$50000</span>
+                        <span><?=lang('tradable_bonus_min_deposit')?></span>
+                        <span><?=lang('tradable_bonus_max_deposit')?></span>
                     </div>
                     <div class="d-md-flex justify-content-between mt-4">
-                        <h5 class="text-primary ">You get a Bonus</h5>
+                        <h5 class="text-primary "><?=lang('tradable_bonus_you_get_bonus')?></h5>
                         <div class="text-end">
                             <span class="text-gradient fw-semibold h5">$<span class="bons">10</span></span>
                         </div>
                     </div>
                     <div class="d-md-flex justify-content-between mt-4">
-                        <h5 class="text-primary ">Your account balance after the applied bonus</h5>
+                        <h5 class="text-primary "><?=lang('tradable_bonus_your_account_balance')?></h5>
                         <div class="text-end">
                             <span class="text-gradient fw-semibold h5">$<span class="value">110</span></span>
                         </div>
@@ -434,7 +425,7 @@
     <div class="container">
         <div class="row align-items-center gy-4 withdraw-card">
             <div class="col-12 text-center">
-                <h2 class="title mb-3 wow fadeInUp">How does <span class="text-gradient">it Work?</span></h2>
+                <h2 class="title mb-3 wow fadeInUp"><?=lang('tradable_bonus_how_it_works_title_1')?> <span class="text-gradient"><?=lang('tradable_bonus_how_it_works_title_2')?></span></h2>
             </div>
             <div class="col-lg-8">
                 <div class="row gy-4">
@@ -445,12 +436,10 @@
                                     <i class="fa-solid fa-arrow-right-to-bracket fa-3x text-gradient"></i>
                                 </div>
                                 <h5 class="card-title fw-bold text-warning">
-                                    Open Live Account
+                                <?=lang('tradable_bonus_open_live_account')?>
                                 </h5>
                                 <p class="card-text fs-6">
-                                    Open a LIVE trading account and submit your documents to
-                                    verify your account. Hurry, your account will need to be
-                                    fully approved before you start trading!
+                                    <?=lang('tradable_bonus_open_live_account_description')?>
                                 </p>
                             </div>
                         </div>
@@ -462,11 +451,10 @@
                                     <i class="fa-solid fa-magnifying-glass-dollar fa-3x text-gradient"></i>
                                 </div>
                                 <h5 class="card-title fw-bold text-warning">
-                                    Fund your Account
+                                <?=lang('tradable_bonus_fund_your_account')?>
                                 </h5>
                                 <p class="card-text fs-6">
-                                    Make a deposit of USD 100 or more, or the equivalent in
-                                    EUR/JPY/ GBP/BTC using any of our payment methods.
+                                <?=lang('tradable_bonus_fund_your_account_description')?>
                                 </p>
                             </div>
                         </div>
@@ -478,11 +466,10 @@
                                     <i class="fa-solid fa-globe fa-3x text-gradient"></i>
                                 </div>
                                 <h5 class="card-title fw-bold text-warning">
-                                    Start Trading
+                                <?=lang('tradable_bonus_start_trading')?>
                                 </h5>
                                 <p class="card-text fs-6">
-                                    There you go ! You're trade to trade the world's biggest
-                                    market
+                                <?=lang('tradable_bonus_start_trading_description')?>
                                 </p>
                             </div>
                         </div>
@@ -510,98 +497,62 @@
         <div class="row">
             <div class="col-12">
                 <div class="linear-border contest-terms">
-                    <h2 class="title wow fadeInUp text-center mb-5">Terms & Conditions</h2>
+                    <h2 class="title wow fadeInUp text-center mb-5"><?=lang('tradable_bonus_terms_and_conditions_title')?></h2>
                     <ol class="text-white opacity-50 wow fadeInUp">
                         <li>
-                            The promotion runs from the 1st January 2024 to 30th April 2024
+                        <?=lang('tradable_bonus_promotion_period')?>
                         </li>
                         <li>
-                            Tradable Bonus 10% from 100USD upto 10,000USD Deposit.
+                        <?=lang('tradable_bonus_tradable_bonus_range')?>
                         </li>
                         <li>
-                            This Bonus Program is intended to protect accounts from
-                            drawdown periods. The Bonus can be lost with no limitations
-                            and also be used as margin.
+                        <?=lang('tradable_bonus_bonus_program_purpose')?>
                         </li>
                         <li>
-                            The 10% Tradable Bonus will be deposited automatically into
-                            the relevant Trading Account with the deposit amount.
+                        <?=lang('tradable_bonus_bonus_deposit_auto')?>
                         </li>
                         <li>
-                            The 10% Tradable Bonus will be applied on EVERY deposit for
-                            the relevant Trading Account.
+                        <?=lang('tradable_bonus_bonus_applied_every_deposit')?>
                         </li>
                         <li>
-                            Every credit bonus funds will have 30 days expiry. Credit will
-                            auto remove from the trading account.
+                        <?=lang('tradable_bonus_bonus_funds_expiry')?>
                         </li>
-                       <li> Clients with depleted balances from losses can continue trading with the Bonus for a Maximum of 7 Days, to retain the bonus a re-deposit is mandatory within 7 days.</li>
+                       <li> <?=lang('tradable_bonus_max_bonus_usage')?></li>
                         <li>
-                            This 10% Tradable Bonus Program can only be applied to one
-                            account per client.
+                        <?=lang('tradable_bonus_one_bonus_account')?>
                         </li>
                         <li>
-                            The 10% Tradable Bonus can be used as stop loss as there is no
-                            limitation in using it for trading.
+                        <?=lang('tradable_bonus_bonus_as_stop_loss')?>
                         </li>
                         <li>
-                            The maximum total Tradable Bonus awarded is $5000 per Client.
+                        <?=lang('tradable_bonus_max_total_bonus')?>
                         </li>
                         <li>
-                            The Tradable Bonus only applies on deposits over $10.
+                        <?=lang('tradable_bonus_min_deposit_apply_bonus')?>
                         </li>
                         <li>
-                            In the case that the Client will perform any withdrawal out of
-                            a Trading Account that has the 10% Tradable Bonus in it, a
-                            corresponding Bonus removal will automatically take place.
+                        <?=lang('tradable_bonus_bonus_removal_withdrawal')?>
                         </li>
                         <li>
-                            The formula used by the system regarding Bonus Removals upon a
-                            withdrawal request, is the following: Withdrawal Amount X 10%.
+                        <?=lang('tradable_bonus_bonus_removal_formula')?>
                         </li>
                         <li>
-                            The ‘Tradable Bonus’ will only be applied to the trading
-                            account that received the initial 10% Tradable Bonus.
+                        <?=lang('tradable_bonus_bonus_applied_to_specific_account')?>
                         </li>
                         <li>
-                            If the Company suspects or has reason to believe that a Client
-                            has abused the terms and conditions of this Bonus Program by
-                            hedging his positions internally (using other trading accounts
-                            held with Company) or externally (using other trading accounts
-                            held with other brokers), then the Company reserves the right,
-                            without the Client’s consent, to withdraw immediately the
-                            Tradable Bonus (and the Additional Bonus if applicable ) from
-                            the Client’s trading account(s) or from his winning hedged
-                            accounts.
+                        <?=lang('tradable_bonus_bonus_abuse')?>
                         </li>
                         <li>
-                            If the Company suspects or has reason to believe that a Client
-                            has more than one account under this Bonus Program, then the
-                            Company reserves the right, without the Client’s consent to
-                            withdraw immediately the Tradable Bonus from the Client’s
-                            trading account(s). In the event that any stop losses are
-                            incurred as a result of such a removal the Company will not be
-                            held liable.
+                        <?=lang('tradable_bonus_multiple_accounts')?>
                         </li>
                         <li>
-                            The Client acknowledges that Forex and CFDs are leveraged
-                            products which involve a high level of risk. When trading in
-                            such products, it is possible for Clients to lose all their
-                            capital. These products may not be suitable for everyone and
-                            Clients should ensure that they understand the risks involved.
-                            Electing to utilize this Bonus Offer may increase the risk of
-                            trading. Clients should seek independent advice if necessary.
+                        <?=lang('tradable_bonus_risk_warning')?>
                         </li>
                         <li>
-                            The Company reserves the right to unilaterally modify, change
-                            or terminate this Bonus Program or any of the terms and
-                            conditions included herein, at any time, without the Client’s
-                            consent.
+                        <?=lang('tradable_bonus_modify_program')?>
                         </li>
                         <li>
-                            The bonus will be treated as a backup equity, In case of a
-                            loss the actual liquidity will be first utilized after that
-                            the bonus will be used.
+                        <?=lang('tradable_bonus_bonus_backup_equity')?>
                         </li>
                     </ol>
                 </div>
@@ -621,13 +572,10 @@
             <div class="col-lg-6 offset-lg-1 text-center text-lg-end">
                 <div class="mb-5">
                     <h3 class="mb-4 wow fadeInRight" data-wow-delay="100ms">
-                        <span class="text-gradient">Start Trading</span> on World Class
-                        Platform
+                        <span class="text-gradient"><?=lang('tradable_bonus_platforms_title_1')?></span> <?=lang('tradable_bonus_platforms_title_2')?>
                     </h3>
                     <p class="mb-5 wow fadeInRight" data-wow-delay="300ms">
-                        Use this app alongside your mobile, desktop, and web-based
-                        YaMarkets MT5 trading platforms to keep your finger firmly on
-                        the pulse of the global financial markets.
+                    <?=lang('tradable_bonus_platforms_description')?>
                     </p>
                 </div>
                 <div class="row gy-4">
@@ -637,8 +585,8 @@
                                 <i class="fa-brands fa-apple fa-3x"></i>
                             </div>
                             <div>
-                                <small>Available on</small>
-                                <p class="lh-base text-uppercase mb-0">app store</p>
+                                <small><?=lang('tradable_bonus_available_on')?></small>
+                                <p class="lh-base text-uppercase mb-0"><?=lang('tradable_bonus_platforms_apple_store')?></p>
                             </div>
                         </a>
                     </div>
@@ -648,8 +596,8 @@
                                 <i class="fa-brands fa-android fa-3x"></i>
                             </div>
                             <div>
-                                <small>Available on</small>
-                                <p class="lh-base text-uppercase mb-0">play store</p>
+                                <small><?=lang('tradable_bonus_available_on')?></small>
+                                <p class="lh-base text-uppercase mb-0"><?=lang('tradable_bonus_platforms_play_store')?></p>
                             </div>
                         </a>
                     </div>
@@ -659,8 +607,8 @@
                                 <i class="fa-brands fa-windows fa-3x"></i>
                             </div>
                             <div>
-                                <small>Download from</small>
-                                <p class="lh-base text-uppercase mb-0">web store</p>
+                                <small><?=lang('tradable_bonus_platforms_web_store')?></small>
+                                <p class="lh-base text-uppercase mb-0"><?=lang('tradable_bonus_web_store')?></p>
                             </div>
                         </a>
                     </div>

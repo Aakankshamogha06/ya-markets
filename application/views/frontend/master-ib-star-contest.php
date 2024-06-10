@@ -30,9 +30,9 @@
     <div class="container position-relative z-1">
         <div class="row gy-4 align-items-center">
             <div class="col-lg-8 offset-lg-2 text-center">
-                <h5 class="text-primary mb-3 fw-bold text-uppercase wow fadeInDown">QUARTERLY 1ST ROUND</h5>
-                <h2 class="title mb-3 wow fadeInUp">Leaders (Master IB) <span class="text-gradient">Stars Contest</span></h2>
-                <p class="mb-4 wow fadeInup">The YaMarkets Leaders (Master IB) Stars Contest is an annual contest with quarterly rounds exclusively for YaMarkers Partners. This contest comes with a great opportunity for emerging partners to showcase their skills and win extra rewards for their dedication.</p>
+                <h5 class="text-primary mb-3 fw-bold text-uppercase wow fadeInDown"><?=lang('master_ib_star_quarterly_round')?></h5>
+                <h2 class="title mb-3 wow fadeInUp"><?=lang('master_ib_star_contest_title_1')?> <span class="text-gradient"><?=lang('master_ib_star_contest_title_2')?></span></h2>
+                <p class="mb-4 wow fadeInup"><?=lang('master_ib_star_contest_description')?></p>
                 <div class="row gy-4">
                     <div class="col-md-4">
                         <div class="p-3">
@@ -43,7 +43,7 @@
                     <div class="col-md-4">
                         <div class="p-3">
                             <i class="fa-solid fa-percent fa-2x text-gradient mb-2"></i>
-                            <p>upto $10,000 cash prize</p>
+                            <p><?=lang('master_ib_star_cash_prize')?></p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp">Join Now</a>
+                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp"><?=lang('master_ib_star_join_now')?></a>
             </div>
         </div>
     </div>
@@ -70,7 +70,7 @@
                     <figure>
                         <i class="fa-solid fa-handshake-angle text-primary fa-2x"></i>
                     </figure>
-                    <h5>Participate and Grow as a YaMarkets Introducing Brokers</h5>
+                    <h5><?=lang('master_ib_star_participate_and_grow')?></h5>
                 </div>
             </div>
             <div class="col-md-4 text-center">
@@ -81,7 +81,7 @@
                     <figure>
                         <i class="fa-solid fa-blender text-primary fa-2x"></i>
                     </figure>
-                    <h5>Get at the Top of the Leaderboard and Win Exclusive Rewards</h5>
+                    <h5><?=lang('master_ib_star_get_to_top')?></h5>
                 </div>
             </div>
         </div>
@@ -95,29 +95,29 @@
                 <img src="<?= base_url() ?>public/web/img/top-3-leaders.jpg" alt="The Top 3 Leaders" class="img-fluid rounded mt-5 wow fadeInLeftBig" />
             </div>
             <div class="col-lg-8">
-                <h4 class="text-center wow fadeInRightBig mt-lg-5 mb-3">The Top 3 Leaders will be qualified every Quarter</h4>
+                <h4 class="text-center wow fadeInRightBig mt-lg-5 mb-3"><?=lang('master_ib_star_top_3_leaders')?></h4>
                 <div class="table-responsive wow fadeInRightBig">
                     <table class="table ">
                         <thead>
                             <tr>
-                                <th class="text-primary">Criteria</th>
-                                <th class="text-primary">Eligibility</th>
-                                <th class="text-primary">Rewards</th>
+                                <th class="text-primary"><?=lang('master_ib_star_criteria')?></th>
+                                <th class="text-primary"><?=lang('master_ib_star_eligibility')?></th>
+                                <th class="text-primary"><?=lang('master_ib_star_rewards')?></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>SUB -IB Activation </td>
+                                <td><?=lang('master_ib_star_sub_ib_activation')?> </td>
                                 <td>20</td>
                                 <td>$50 per IB</td>
                             </tr>
                             <tr>
-                                <td>Net Deposit</td>
+                                <td><?=lang('master_ib_star_net_deposit')?></td>
                                 <td>$50000</td>
                                 <td>upto $10,000 cash prize</td>
                             </tr>
                             <tr>
-                                <td>Trading Volume</td>
+                                <td><?=lang('master_ib_star_trading_volume')?></td>
                                 <td>1000</td>
                                 <td>0.25 cent</td>
                             </tr>
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="col-12 text-center">
-                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp">Join Now</a>
+                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp"><?=lang('master_ib_star_join_now')?></a>
             </div>
         </div>
     </div>
@@ -141,7 +141,7 @@
                         <i class="fa-solid fa-money-bill-transfer text-primary fa-2x ty-10"></i>
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-0">Extra $750 for monthly promotional expenses until the next quarter.</h5>
+                        <h5 class="card-title text-primary fw-semibold mb-0"><?=lang('master_ib_star_extra_promotional_expenses')?></h5>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                         <i class="fa-solid fa-hands-praying text-primary fa-2x ty-10"></i>
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-0">Dedicated quarterly budget of $1500 for seminars or workshops.</h5>
+                        <h5 class="card-title text-primary fw-semibold mb-0"><?=lang('master_ib_star_dedicated_budget_seminars')?></h5>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@
                         <i class="fa-solid fa-building-columns text-primary fa-2x ty-10"></i>
                     </figure>
                     <div class="card-body position-relative z-0">
-                        <h5 class="card-title text-primary fw-semibold mb-0">Dedicated 4 exclusive educational webinars for the team.</h5>
+                        <h5 class="card-title text-primary fw-semibold mb-0"><?=lang('master_ib_star_dedicated_webinars')?></h5>
                     </div>
                 </div>
             </div>
@@ -176,28 +176,28 @@
                 <!--  <h3 class="text-primary wow fadeInLeft">About Gala Dinner</h3>
                 <p class="mb-2 wow fadeInLeft" data-wow-delay="100ms">Gala Dinner will be organised in between 10th Jan 2025 - 26th Jan 2025</p>
                 <p class="mb-5 wow fadeInLeft" data-wow-delay="300ms">Don't miss this unforgettable event. Participate in the Star IB Content, rise to the Top 40 Partners, and join us for an extraordinary evening filled with lively celebrations, exclusive networking opportunities, and moments that will stay with you for a lifetime.</p> -->
-                <h4 class="text-primary wow fadeInLeft">Partner Advantages</h4>
-                <p class="wow fadeInLeft">Experience unique advantages and rewards designed for partner growth and success at YaMarkets.</p>
-                <p class="wow fadeInLeft">Enjoy attractive incentives, rewards, and bonuses for exceptional performance. Access a range of educational resources, including webinars and workshops, supporting your continuous professional development. Engage in exclusive events and gatherings where your achievements as a partner are celebrated and recognized.</p>
+                <h4 class="text-primary wow fadeInLeft"><?=lang('master_ib_star_partner_advantages')?></h4>
+                <p class="wow fadeInLeft"><?=lang('master_ib_star_experience_unique_advantages')?></p>
+                <p class="wow fadeInLeft"><?=lang('master_ib_star_enjoy_attractive_incentives')?></p>
                 <ol class="list-unstyled wow fadeInLeft" data-wow-delay="200ms">
                     <li class="d-flex gap-3 align-items-center">
                         <i class="fa-solid fa-check text-primary"></i>
-                        <span class="opacity-50">Personalized Assistance</span>
+                        <span class="opacity-50"><?=lang('master_ib_star_personalized_assistance')?></span>
                     </li>
                     <li class="d-flex gap-3 align-items-center">
                         <i class="fa-solid fa-check text-primary"></i>
-                        <span class="opacity-50">Attractive Rewards</span>
+                        <span class="opacity-50"><?=lang('master_ib_star_attractive_rewards')?></span>
                     </li>
                     <li class="d-flex gap-3 align-items-center">
                         <i class="fa-solid fa-check text-primary"></i>
-                        <span class="opacity-50">Educational Resources</span>
+                        <span class="opacity-50"><?=lang('master_ib_star_educational_resources')?></span>
                     </li>
                     <li class="d-flex gap-3 align-items-center">
                         <i class="fa-solid fa-check text-primary"></i>
-                        <span class="opacity-50">Exclusive Events</span>
+                        <span class="opacity-50"><?=lang('master_ib_star_exclusive_events')?></span>
                     </li>
                 </ol>
-                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp">Join Now</a>
+                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp"><?=lang('master_ib_star_join_now')?></a>
             </div>
             <div class="col-md-6 text-center text-md-end">
                 <img src="<?= base_url() ?>public/web/img/partner-advantages.jpg" alt="" class="img-fluid rounded wow fadeInRight" />
@@ -211,38 +211,38 @@
         <div class="row">
             <div class="col-12">
                 <div class="linear-border contest-terms">
-                    <h2 class="title wow fadeInUp text-center mb-5" data-wow-delay="100ms">Terms & Conditions</h2>
+                    <h2 class="title wow fadeInUp text-center mb-5" data-wow-delay="100ms"><?=lang('master_ib_star_contest_terms_title')?></h2>
                     <ol class="text-white opacity-75 wow fadeInUp">
-                        <li>Starts from 1st January 2024 to 31st March 2024.</li>
+                        <li><?=lang('master_ib_star_contest_terms_1')?></li>
 
-                        <li>ECN account type is not valid fot this contest.</li>
+                        <li><?=lang('master_ib_star_contest_terms_2')?></li>
 
-                        <li>Cash prize is based on minimum 1 % of Total Net deposit value.</li>
-                        <li>Sub IB Activation is minimum $5000 net business in Quarterly</li>
+                        <li><?=lang('master_ib_star_contest_terms_3')?></li>
+                        <li><?=lang('master_ib_star_contest_terms_4')?></li>
 
-                        <li>Participants shall be eligible to redeem the Prize based on the Deposit Target and Volume Target accumulated based on net deposit and trading volume scores, as deposited and traded by their directly introduced clients.</li>
+                        <li><?=lang('master_ib_star_contest_terms_5')?></li>
 
-                        <li>Deposit Target is calculated by accumulated net deposits (deposits – withdrawals) to the Clients directly introduced by the Affiliate only, towards the Deposit Target.</li>
+                        <li><?=lang('master_ib_star_contest_terms_6')?></li>
 
-                        <li>Affiliate can monitor his Deposit and Volume Targets on his IB CRM area.</li>
+                        <li><?=lang('master_ib_star_contest_terms_7')?></li>
 
-                        <li>The Affiliate’s own accounts are excluded from the YaMarkets IB promotion, therefore deposits and volume traded on Affiliate’s own trading account shall not be counted towards the Deposit and Volume Targets.</li>
+                        <li><?=lang('master_ib_star_contest_terms_8')?></li>
 
-                        <li>The Deposits and trading volume of Clients introduced by sub-Affiliates of the Affiliate shall not be counted towards the Deposit and Volume Targets.</li>
+                        <li><?=lang('master_ib_star_contest_terms_9')?></li>
 
-                        <li>The positions opened by Clients introduced by the Affiliate, prior his registration for the YaMarkets IB Contest shall not be counted towards the Affiliate’s Volume Target.</li>
+                        <li><?=lang('master_ib_star_contest_terms_10')?></li>
 
-                        <li>Only forex, gold, silver and cryptocurrency positions traded by Clients directly introduced by the Affiliate shall be counted towards the Affiliate’s Volume Target.</li>
+                        <li><?=lang('master_ib_star_contest_terms_11')?></li>
 
-                        <li>Only active client accounts during the contest period will be considered for the calculation of volume.</li>
+                        <li><?=lang('master_ib_star_contest_terms_12')?></li>
 
-                        <li>Only closed deals(trades) are taken into calculation. Open trades will not contribute in volume calculation.</li>
+                        <li><?=lang('master_ib_star_contest_terms_13')?></li>
 
-                        <li>Top 3 Leaders will be qualified every Quarter.</li>
+                        <li><?=lang('master_ib_star_contest_terms_14')?></li>
 
-                        <li>Date of announcement of the Contest results: 15th April 2024.</li>
+                        <li><?=lang('master_ib_star_contest_terms_15')?></li>
 
-                        <li>The Company reserves the right, at its absolute discretion, to unilaterally modify, change orterminate the YaMarkets IB Contest 2024 or any of the Terms and Conditions included herein,at any time without the Affiliate’s consent.</li>
+                        <li><?=lang('master_ib_star_contest_terms_16')?></li>
                     </ol>
                 </div>
             </div>
@@ -266,29 +266,29 @@
                         <div class="col-md-12">
                             <div class="form-floating">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
-                                <label for="name">Name</label>
+                                <label for="name"><?=lang('master_ib_star_name_placeholder')?></label>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-floating">
                                 <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required />
-                                <label for="email">Enter email</label>
+                                <label for="email"><?=lang('master_ib_star_enter_email_placeholder')?></label>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-floating">
                                 <input type="tel" class="form-control" id="phone" name="mobile_no" value="+91 " maxlength="14" placeholder="Enter mobile no." required />
-                                <label for="phone">Enter mobile no.</label>
+                                <label for="phone"><?=lang('master_ib_star_enter_mobile_placeholder')?></label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
                                 <textarea class="form-control" id="message" rows="4" name="message" placeholder="Message"></textarea>
-                                <label for="message">Message</label>
+                                <label for="message"><?=lang('master_ib_star_message_placeholder')?></label>
                             </div>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-outline-primary px-5 py-2">Submit</button>
+                            <button type="submit" class="btn btn-outline-primary px-5 py-2"><?=lang('master_ib_star_submit_button')?></button>
                         </div>
                     </div>
                 </form>
