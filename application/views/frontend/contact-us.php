@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row gy-2 align-items-center text-center text-lg-start">
             <div class="col-lg-6">
-                <h5 class="text-primary fw-bold text-uppercase wow fadeInLeftBig">Contact us</h5>
-                <h2 class="title wow fadeInLeftBig" data-wow-delay="200ms"><span class="text-gradient">Write</span> to us</h2>
+                <h5 class="text-primary fw-bold text-uppercase wow fadeInLeftBig"><?=lang('withdraw_section_title')?></h5>
+                <h2 class="title wow fadeInLeftBig" data-wow-delay="200ms"><span class="text-gradient"><?=lang('blog_withdraw_section_subtitle_1')?></span> <?=lang('blog_withdraw_section_subtitle_2')?></h2>
             </div>
             <div class="col-lg-6">
-                <p class="wow fadeInRightBig">We are here to help you easily find the exact answers to your questions and offer you the best user experience!</p>
+                <p class="wow fadeInRightBig"><?=lang('withdraw_section_description')?></p>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@
                                     </svg>
                                 </div>
                                 <div class="text">
-                                    <h6 class="text-primary fs-5"> Physical Address</h6>
+                                    <h6 class="text-primary fs-5"> <?=lang('physical_address')?></h6>
                                      <p class="mb-0">701- Nassima Tower, Sheikh Zayed Road Dubai</p>
                                     
                                 </div>
@@ -39,7 +39,7 @@
                                     </svg>
                                 </div>
                                 <div class="text">
-                                    <h6 class="text-primary fs-5">Regsitered Address</h6>
+                                    <h6 class="text-primary fs-5"><?=lang('regsitered_address')?></h6>
                                     <p>C/o Legacy Capital Co. Ltd., Level-2, Suite 201, The Catalyst, 40 Silicon Avenue, Cybercity, Ebene – 72201, Mauritius</p>
                                       <p>Suite 305, Griffith Corporate Centre, Kingstown P.O. Box 1510, Beachmont Kingstown St. Vincent</p>
                                     <p>Law Partners House, Kumul Highway, Port Vila, Vanuatu Postal Address Po Box 212, Port Vila, Vanuatu</p>
@@ -64,7 +64,7 @@
                                     <i class="fa fa-phone" style="color: #fac211;"></i>
                                 </div>
                                 <div class="text">
-                                    <h6 class="text-primary fs-5">Call us</h6>
+                                    <h6 class="text-primary fs-5"><?=lang('call_us')?></h6>
                                     <p class="mb-0">+971 545407280</p>
                                 </div>
                             </div>
@@ -73,12 +73,12 @@
                                     <i class="fa fa-envelope" style="color: #fac211;"></i>
                                 </div>
                                 <div class="text">
-                                    <h6 class="text-primary fs-5">Email Address</h6>
+                                    <h6 class="text-primary fs-5"><?=lang('email_address')?></h6>
                                     <p class="mb-0">info@yamarkets.com</p>
                                 </div>
                             </div>
                             <div class="">
-                                <h6 class="text-primary fs-5 mb-3">Follow us on</h6>
+                                <h6 class="text-primary fs-5 mb-3"><?=lang('follow_us_on')?></h6>
                                 <div class="social-icons wow fadeInUp">
                                     <a href="https://www.facebook.com/yamarkets.official/" target="_blank">
                                         <i class="fa-brands fa-facebook-f"></i>
@@ -110,35 +110,35 @@
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="firstname" placeholder="First name" name="firstname" required />
-                                        <label for="firstname">First name</label>
+                                        <label for="firstname"><?=lang('contact_form_first_name')?></label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="lastName" name="lastname" placeholder="Last name" />
-                                        <label for="lastName">Last name</label>
+                                        <label for="lastName"><?=lang('contact_form_last_name')?></label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required />
-                                        <label for="email">Enter email</label>
+                                        <label for="email"><?=lang('contact_form_email')?></label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="tel" class="form-control" id="mobile_no" name="mobile_no" value="+91 " maxlength="14" placeholder="Enter mobile no." required />
-                                        <label for="mobile_no">Enter mobile no.</label>
+                                        <label for="mobile_no"><?=lang('contact_form_mobile_no')?></label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control" id="message" name="message" rows="4" placeholder="How can we help?"></textarea>
-                                        <label for="message">How can we help?</label>
+                                        <label for="message"><?=lang('contact_form_message')?></label>
                                     </div>
                                 </div>
                                 <div class="col-12 text-md-end">
-                                    <button type="submit" class="btn btn-primary rounded px-5 py-2">Submit</button>
+                                    <button type="submit" class="btn btn-primary rounded px-5 py-2"><?=lang('contact_form_submit')?></button>
                                 </div>
                             </div>
                         </form>
@@ -152,7 +152,7 @@
     <div class="container">
         <div class="row gy-5">
             <div class="col-12 text-center">
-                <h2 class="title wow fadeInUp">Email us & chat support</h2>
+                <h2 class="title wow fadeInUp"><?=lang('email_chat_section_title')?></h2>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="contact-card text-center wow fadeInUp" data-wow-delay="100ms">
@@ -160,7 +160,7 @@
                         <img src="<?= base_url() ?>public/web/img/general-inquiry.svg" alt="Complaints Inquiries" class="img-fluid mb-3" />
                     </div>
                     <div class="content">
-                        <h5 class="text-primary mb-4">Complaints Inquiries</h5>
+                        <h5 class="text-primary mb-4"><?=lang('email_chat_complaints_title')?></h5>
                         <p class="mb-0">complaints@yamarkets.com</p>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                         <img src="<?= base_url() ?>public/web/img/finance-inquiries.svg" alt="Finance inquiries" class="img-fluid mb-3" />
                     </div>
                     <div class="content">
-                        <h5 class="text-primary mb-4">Finance inquiries</h5>
+                        <h5 class="text-primary mb-4"><?=lang('email_chat_finance_title')?> </h5>
                         <p class="mb-0">finance@yamarkets.com</p>
                     </div>
                 </div>
@@ -182,7 +182,7 @@
                         <img src="<?= base_url() ?>public/web/img/support.svg" alt="Support" class="img-fluid mb-3" />
                     </div>
                     <div class="content">
-                        <h5 class="text-primary mb-4">Support</h5>
+                        <h5 class="text-primary mb-4"><?=lang('email_chat_support_title')?></h5>
                         <p class="mb-0">support@yamarkets.com</p>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                         <img src="<?= base_url() ?>public/web/img/partner-inquiries.svg" alt="Partner inquiries" class="img-fluid mb-3" />
                     </div>
                     <div class="content">
-                        <h5 class="text-primary mb-4">Partner inquiries</h5>
+                        <h5 class="text-primary mb-4"><?=lang('email_chat_partner_title')?></h5>
                         <p class="mb-0">partner@yamarkets.com</p>
                     </div>
                 </div>

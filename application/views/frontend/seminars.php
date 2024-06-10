@@ -9,12 +9,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="title mb-3 text-center wow fadeInUp">Trading Seminars and
-                    <span class="text-gradient">Workshops for Traders</span>
+                <h2 class="title mb-3 text-center wow fadeInUp"><?=lang('seminar_title_1')?>
+                    <span class="text-gradient"><?=lang('seminar_title_2')?></span>
                 </h2>
-                <p class="wow fadeInUp" data-wow-delay="100ms">YaMarkets places careful attention on organizing training seminars as a fundamental aspect of successful Forex trading. We prioritize delivering practical knowledge to each participant during these seminars. Simply accumulating theoretical knowledge without live trading experience often results in ineffective capital management.</p>
-                <p class="wow fadeInUp" data-wow-delay="200ms">Forex training and seminars are invaluable for a trader's professional growth. We have observed the practical application of seminar knowledge in real trading scenarios. These sessions help traders recognize errors and refine strategies through active involvement.</p>
-                <p class="wow fadeInUp" data-wow-delay="300ms">Hurry and enroll in our seminars to improve your trading skills!</p>
+                <p class="wow fadeInUp" data-wow-delay="100ms"><?=lang('seminar_paragraph_1')?></p>
+                <p class="wow fadeInUp" data-wow-delay="200ms"><?=lang('seminar_paragraph_2')?></p>
+                <p class="wow fadeInUp" data-wow-delay="300ms"><?=lang('seminar_paragraph_3')?></p>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
                 </div>
             <?php } ?>
             <div class="col-12 text-center">
-                <button class="btn btn-primary load-btn">Load more <i class="fa fa-arrow-down"></i></button>
+                <button class="btn btn-primary load-btn"><?=lang('load_more_button')?> <i class="fa fa-arrow-down"></i></button>
             </div>
         </div>
     </div>
@@ -59,15 +59,15 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12 text-center">
-                <h5 class="text-primary fw-bold">Your Partner in Trading Success</h5>
-                <h2 class="title">Register Now for <span class="text-gradient">Seamless Trading </span>
-                    <div class="d-lg-block text-gradient">with YaMarkets</div>
+                <h5 class="text-primary fw-bold"><?=lang('system_section_title')?></h5>
+                <h2 class="title"><?=lang('system_register_title_1')?> <span class="text-gradient"><?=lang('system_register_title_2')?> </span>
+                    <div class="d-lg-block text-gradient"><?=lang('system_register_subtitle')?></div>
                 </h2>
             </div>
             <div class="col-12">
                 <div class="group-btn text-center mt-4">
-                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms">Open live account</a>
-                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms">Open demo account</a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-primary wow fadeInUp" data-wow-delay="100ms"><?=lang('system_open_live_account')?></a>
+                    <a href="https://area.yamarkets.com/register" class="btn btn-secondary ms-md-2 wow fadeInUp" data-wow-delay="300ms"><?=lang('system_open_demo_account')?></a>
                 </div>
             </div>
         </div>

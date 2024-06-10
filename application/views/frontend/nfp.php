@@ -2,9 +2,8 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 col-xxl-5 mx-auto text-center">
-                <h2 class="title wow fadeInLeftBig"><span class="text-gradient">NFP </span>facebook contest</h2>
-                <p class="wow fadeInLeftBig" data-wow-delay="200ms">Put your NFP prediction on our facebook page and
-                    stand a chance to win $100 from us.</p>
+                <h2 class="title wow fadeInLeftBig"><span class="text-gradient"><?=lang('nfp_contest_title_1')?> </span><?=lang('nfp_contest_title_2')?></h2>
+                <p class="wow fadeInLeftBig" data-wow-delay="200ms"><?=lang('nfp_contest_description')?></p>
                 <div class="d-flex align-items-center justify-content-center gap-3 gap-md-5 mt-5 contest-links">
                     <div class="wow fadeInUp" data-wow-delay="100ms">
                         <a href="https://www.facebook.com/yamarkets.official/" target="_blank">
@@ -38,7 +37,7 @@
                     </div>
                 </div>
                 <div class="group-btn text-center mt-5">
-                    <a href="https://www.facebook.com/photo.php?fbid=855475773257842&set=pb.100063862818155.-2207520000&type=3" target="_blank" class="btn btn-primary mb-3 mb-md-0 wow fadeInUp" data-wow-delay="100ms">Join now</a>
+                    <a href="https://www.facebook.com/photo.php?fbid=855475773257842&set=pb.100063862818155.-2207520000&type=3" target="_blank" class="btn btn-primary mb-3 mb-md-0 wow fadeInUp" data-wow-delay="100ms"><?=lang('nfp_join_now')?></a>
                 </div>
             </div>
         </div>
@@ -51,8 +50,8 @@
             <div class="d-flex gap-4 align-items-center">
                 <?php for ($i = 0; $i < 4; $i++) { ?>
                     <div>•</div>
-                    <div class="winner-announce">Win $100</div>
-                    <p class="mb-0 text-uppercase text-white fw-semibold">on your new trading account</p>
+                    <div class="winner-announce"><?=lang('nfp_marquee_content_announce')?></div>
+                    <p class="mb-0 text-uppercase text-white fw-semibold"><?=lang('nfp_marquee_content_description')?></p>
                 <?php } ?>
             </div>
         </marquee>
@@ -64,51 +63,41 @@
         <div class="row gy-5">
             <div class="col-lg-8 mx-auto">
                 <div class="d-flex flex-column gap-4 text-center mb-5 wow fadeInUpBig">
-                    <p class="mb-0">Put your NFP Prediction on YaMarkets Facebook page – Simply Predict the NFP figure
-                        on the comment and win the prize. Make your comment before the deadline to be a valid
-                        participant in the competition. Win $100 New Trading Account as the winner of the NFP Contest.
+                    <p class="mb-0"><?=lang('nfp_nfp_prediction_guide')?>
                     </p>
-                    <h5 class="mb-0">The complete guide to non-farm payrolls (NFP)</h5>
-                    <p class="mb-0">Non-farm payrolls data releases are influential on both economic policy and
-                        financial markets. Discover what non-farm payrolls are, the upcoming NFP dates for 2023 and how
-                        you can trade them.</p>
-                    <h5 class="mb-0">What are non-farm payrolls?</h5>
-                    <p class="mb-0">Non-farm payrolls (NFP) are monthly measurements of how many workers there are in
-                        the US, excluding farm workers and a few other job types such as government workers, private
-                        households and non-profit employees.</p>
-                    <p class="mb-0">The data is collected on a monthly basis by the Bureau of Labor Statistics (BLS) and
-                        put into the ‘Employment Situation’ report, which also includes the unemployment rate. The
-                        report is released on the first Friday of every month at approximately 8:30am EST – which is
-                        1:30pm GMT.</p>
-                    <h5 class="mb-0">When NFP is released?</h5>
-                    <p class="mb-0">NFP is reported by the US Bureau of Labor Statistics every first Friday of month.
+                    <h5 class="mb-0"><?=lang('nfp_nfp_guide_title')?></h5>
+                    <p class="mb-0"><?=lang('nfp_nfp_guide_content')?></p>
+                    <h5 class="mb-0"><?=lang('nfp_what_are_nfp')?></h5>
+                    <p class="mb-0"><?=lang('nfp_nfp_definition')?>
+                    <h5 class="mb-0"><?=lang('nfp_nfp_release')?></h5>
+                    <p class="mb-0"><?=lang('nfp_nfp_release_info')?>
                     </p>
                 </div>
             </div>
             <div class="col-xxl-8 mx-auto">
                 <div class="countdown" id="countdown">
-                    <h4 class="mb-3 wow fadeInUp">Next NFP release</h4>
+                    <h4 class="mb-3 wow fadeInUp"><?=lang('nfp_next_nfp_release')?></h4>
                     <div id="countdown">
                         <ul class="list-unstyled text-center wow fadeInUpBig">
                             <li>
                                 <span id="days"></span>
                                 <hr class="counter-line" />
-                                <div class="text-primary fw-medium">days</div>
+                                <div class="text-primary fw-medium"><?=lang('nfp_days')?></div>
                             </li>
                             <li>
                                 <span id="hours"></span>
                                 <hr class="counter-line" />
-                                <div class="text-primary fw-medium">Hours</div>
+                                <div class="text-primary fw-medium"><?=lang('nfp_hours')?></div>
                             </li>
                             <li>
                                 <span id="minutes"></span>
                                 <hr class="counter-line" />
-                                <div class="text-primary fw-medium">Minutes</div>
+                                <div class="text-primary fw-medium"><?=lang('nfp_minutes')?></div>
                             </li>
                             <li>
                                 <span id="seconds"></span>
                                 <hr class="counter-line" />
-                                <div class="text-primary fw-medium">Seconds</div>
+                                <div class="text-primary fw-medium"><?=lang('nfp_seconds')?></div>
                             </li>
                         </ul>
                     </div>
@@ -125,7 +114,7 @@
                 <figure class="mb-0 py-5 position-relative wow slideInLeft">
                     <img src="<?= base_url() ?>public/web/img/how-to-apply.png" alt="How to Apply?" class="img-fluid" />
                     <figcaption class="position-absolute top-50 translate-middle-y ps-lg-5 ps-3">
-                        <h2 class="title">How to <br /><span class="text-gradient">Apply?</span></h2>
+                        <h2 class="title"><?=lang('nfp_how_to_apply_title')?></span></h2>
                     </figcaption>
                 </figure>
             </div>
@@ -137,12 +126,12 @@
                             <div class="w-100">
                                 <div class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Like the page
+                                    <?=lang('nfp_like_the_page')?>
                                     </button>
                                 </div>
                                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 text-white">Like the Facebook page of YaMarkets</p>
+                                        <p class="mb-0 text-white"><?=lang('nfp_how_to_apply_description_1')?></p>
                                     </div>
                                 </div>
                             </div>
@@ -152,12 +141,12 @@
                             <div class="w-100">
                                 <div class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Share
+                                    <?=lang('nfp_share')?>
                                     </button>
                                 </div>
                                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 text-white">Share the page with your Connections</p>
+                                        <p class="mb-0 text-white"><?=lang('nfp_how_to_apply_description_2')?></p>
                                     </div>
                                 </div>
                             </div>
@@ -167,12 +156,12 @@
                             <div class="w-100">
                                 <div class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Predict
+                                    <?=lang('nfp_predict')?>
                                     </button>
                                 </div>
                                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="mb-0 text-white">Predict the NFP figure in the Comments</p>
+                                        <p class="mb-0 text-white"><?=lang('nfp_how_to_apply_description_3')?></p>
                                     </div>
                                 </div>
                             </div>
@@ -202,18 +191,18 @@
     <div class="container">
         <div class="row gy-5">
             <div class="col-12 text-center">
-                <h5 class="text-primary fw-bold text-uppercase wow fadeInLeftBig">Contest winners</h5>
-                <h2 class="title wow fadeInLeftBig" data-wow-delay="200ms">NFP Facebook <span class="text-gradient">Contest Winners</span></h2>
+                <h5 class="text-primary fw-bold text-uppercase wow fadeInLeftBig"><?=lang('nfp_contest_winners_title')?></h5>
+                <h2 class="title wow fadeInLeftBig" data-wow-delay="200ms"><?=lang('nfp_nfp_facebook_contest_winners_title_1')?> <span class="text-gradient"><?=lang('nfp_nfp_facebook_contest_winners_title_2')?></span></h2>
             </div>
             <div class="col-12">
                 <div class="table-responsive wow fadeInUp">
                     <table class="table contest-winner-table text-nowrap">
                         <thead class="text-uppercase">
                             <tr>
-                                <th width="500">Name</th>
-                                <th>Prize won</th>
-                                <th>Month</th>
-                                <th>Year</th>
+                                <th width="500"><?=lang('nfp_name')?></th>
+                                <th><?=lang('nfp_prize_won')?></th>
+                                <th><?=lang('nfp_month')?></th>
+                                <th><?=lang('nfp_year')?></th>
                             </tr>
                         </thead>
                         <?php
@@ -242,7 +231,7 @@
                 </div>
             </div>
             <div class="col-12 text-center">
-                <a href="<?= base_url('nfp-winners'); ?>" class="btn btn-primary load-btn">View all <i class="fa fa-arrow-down"></i></a>
+                <a href="<?= base_url('nfp-winners'); ?>" class="btn btn-primary load-btn"><?=lang('nfp_view_all')?> <i class="fa fa-arrow-down"></i></a>
             </div>
         </div>
     </div>
@@ -253,21 +242,17 @@
         <div class="row">
             <div class="col-12">
                 <div class="linear-border contest-terms">
-                    <h2 class="title wow fadeInUp text-center mb-5" data-wow-delay="100ms">Terms & conditions</h2>
+                    <h2 class="title wow fadeInUp text-center mb-5" data-wow-delay="100ms"><?=lang('nfp_terms_conditions_title')?></h2>
                     <ol class="text-white opacity-50 wow fadeInUp">
-                        <li>The campaign results will be declared latest by 9th January 2024.</li>
-                        <li>All YaMarkets Ultimate account holders can participate in this contest.</li>
-                        <li>There will be only one winner in this contest.</li>
-                        <li>A participant cannot win the NFP contest twice.</li>
-                        <li>The campaign results will be declared within seven days.</li>
-                        <li>$100 prize will be automatically credited to the Ultimate account of the winner.</li>
-                        <li>Winner can withdraw profit amount within one withdrawal transaction or use the amount
-                            towards the margin positions.</li>
-                        <li>Only one entry per account holder is allowed. If a member has multiple accounts then only
-                            one bid is allowed. In case of multiple entries, only the first entry will be considered.
-                        </li>
-                        <li>The Company reserves the right to modify or cancel the Promotion at any time and at its sole
-                            discretion or cease this Promotion without any prior notice</li>
+                        <li><?=lang('nfp_campaign_results_declaration')?></li>
+                        <li><?=lang('nfp_account_holders_participation')?></li>
+                        <li><?=lang('nfp_one_winner')?></li>
+                        <li><?=lang('nfp_single_winner_rule')?></li>
+                        <li><?=lang('nfp_campaign_results_declaration_within_seven_days')?></li>
+                        <li><?=lang('nfp_prize_credited_to_winner_account')?></li>
+                        <li><?=lang('nfp_winner_withdrawal_rule')?></li>
+                        <li><?=lang('nfp_single_entry_per_account')?></li>
+                        <li><?=lang('nfp_promotion_modification_or_cancellation')?></li>
                     </ol>
                 </div>
             </div>

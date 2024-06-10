@@ -91,23 +91,23 @@
         <div class="row gy-4 gx-xl-5 align-items-center">
             <div class="col-lg-8 offset-lg-2 text-center">
                 <h2 class="mb-3 wow fadeInUp">
-                    <span class="d-lg-block"><?=lang('')?>TOP 10 Partners will be qualified for </span>
-                    <span class="text-gradient">Ib Partners Contest and for Gala Dinner</span>
+                    <span class="d-lg-block"><?=lang('star_ib_partners_top_10_partners_qualify_title')?> </span>
+                    <span class="text-gradient"><?=lang('star_ib_partners_top_10_partners_qualify_subtitle')?></span>
                 </h2>
-                <p class="wow fadeInUp">International Yearly Gala Dinner with Top 40 Stars Partners </p>
+                <p class="wow fadeInUp"><?=lang('star_ib_partners_top_10_partners_qualify_description')?> </p>
             </div>
             <div class="col-md-4">
                 <div class="card bg-dark crypto-card wow fadeInUp" data-wow-delay="200ms" data-attr="1">
                     <div class="card-body p-xl-4">
                         <i class="fa-solid fa-user mb-4 fa-2x text-primary"></i>
-                        <h5 class="card-title text-primary mb-3">New Active clients</h5>
+                        <h5 class="card-title text-primary mb-3"><?=lang('star_ib_partners_new_active_clients')?></h5>
                         <p class="card-text mb-2">
-                            <span class="fw-semibold">Eligibility: </span>
+                            <span class="fw-semibold"><?=lang('star_ib_partners_new_active_clients_eligibility')?> </span>
                             <span>50</span>
                         </p>
                         <p class="card-text">
-                            <span class="fw-semibold">Rewards: </span>
-                            <span>$10 per client</span>
+                            <span class="fw-semibold"><?=lang('star_ib_partners_new_active_clients_reward')?> </span>
+                            <span><?=lang('star_ib_partners_new_active_clients_reward_value')?></span>
                         </p>
                     </div>
                 </div>
@@ -116,14 +116,14 @@
                 <div class="card bg-dark crypto-card wow fadeInUp" data-wow-delay="400ms" data-attr="2">
                     <div class="card-body p-xl-4">
                         <i class="fa-solid fa-dollar-sign mb-4 fa-2x text-primary"></i>
-                        <h5 class="card-title text-primary mb-3">Net Deposit</h5>
+                        <h5 class="card-title text-primary mb-3"><?=lang('star_ib_partners_net_deposit')?></h5>
                         <p class="card-text mb-2">
-                            <span class="fw-semibold">Eligibility: </span>
+                            <span class="fw-semibold"><?=lang('star_ib_partners_net_deposit_eligibility')?> </span>
                             <span>$25000</span>
                         </p>
                         <p class="card-text">
-                            <span class="fw-semibold">Rewards: </span>
-                            <span>upto $10,000 cash prize</span>
+                            <span class="fw-semibold"><?=lang('star_ib_partners_net_deposit_reward')?> </span>
+                            <span><?=lang('star_ib_partners_net_deposit_reward_value')?></span>
                         </p>
                     </div>
                 </div>
@@ -132,21 +132,21 @@
                 <div class="card bg-dark crypto-card wow fadeInUp" data-wow-delay="600ms" data-attr="3">
                     <div class="card-body p-xl-4">
                         <i class="fa-solid fa-money-bill-trend-up mb-4 fa-2x text-primary"></i>
-                        <h5 class="card-title text-primary mb-3">Trading Volume</h5>
+                        <h5 class="card-title text-primary mb-3"><?=lang('star_ib_partners_trading_volume')?></h5>
                         <p class="card-text mb-2">
-                            <span class="fw-semibold">Eligibility: </span>
+                            <span class="fw-semibold"><?=lang('star_ib_partners_trading_volume_eligibility')?> </span>
                             <span>500 lots</span>
                         </p>
                         <p class="card-text">
-                            <span class="fw-semibold">Rewards: </span>
+                            <span class="fw-semibold"><?=lang('star_ib_partners_trading_volume_reward')?> </span>
                             <span>0.50 cent</span>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-12 text-center">
-                <p class="mt-4 wow fadeInUp">Extra IB Salary for Top 10 Quarterly qualified IB Partners - $500 until Next quarter.</p>
-                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp">Join Now</a>
+                <p class="mt-4 wow fadeInUp"><?=lang('star_ib_partners_top_10_partners_qualify_extra')?></p>
+                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp"><?=lang('star_ib_partners_stars_ib_contest_join_button')?></a>
             </div>
         </div>
     </div>
@@ -156,13 +156,13 @@
     <div class="container">
         <div class="row gx-xl-5 row-gap-4">
             <div class="col-12 text-center">
-                <h2 class="title mb-3 wow fadeInUp">How to <span class="text-gradient">Join</span></h2>
+                <h2 class="title mb-3 wow fadeInUp"><?=lang('star_ib_partners_how_to_join_title')?> <span class="text-gradient"><?=lang('star_ib_partners_how_to_join_subtitle')?></span></h2>
             </div>
             <div class="col-md-4">
                 <div class="card bg-dark h-100 wow fadeInUpBig" data-wow-delay="100ms">
                     <img src="<?= base_url() ?>public/web/img/join-before.jpg" class="card-img-top" alt="Join before the 7th business day of a given month" />
                     <div class="card-body text-center">
-                        <p class="card-title text-gradient">Open your account and complete your KYC</p>
+                        <p class="card-title text-gradient"><?=lang('star_ib_partners_open_account_kyc')?></p>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                 <div class="card bg-dark h-100 wow fadeInUpBig" data-wow-delay="400ms">
                     <img src="<?= base_url() ?>public/web/img/balance-of-500-USD.jpg" class="card-img-top" alt="Have a minimum account balance of 500 USD" />
                     <div class="card-body text-center">
-                        <p class="card-title text-gradient">Share your Referral Link and get new clients.</p>
+                        <p class="card-title text-gradient"><?=lang('star_ib_partners_share_referral_link')?></p>
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@
                 <div class="card bg-dark h-100 wow fadeInUpBig" data-wow-delay="600ms">
                     <img src="<?= base_url() ?>public/web/img/have-an-active-live-premium-account.jpg" class="card-img-top" alt="Have a Live Premium Account" />
                     <div class="card-body text-center">
-                        <p class="card-title text-gradient">Join the contest and compete for the top position.</p>
+                        <p class="card-title text-gradient"><?=lang('star_ib_partners_have_live_premium_account')?></p>
                     </div>
                 </div>
             </div>
@@ -190,29 +190,29 @@
     <div class="container">
         <div class="row align-items-center gy-4 col-rev">
             <div class="col-md-6">
-                <h3 class="text-primary wow fadeInLeft">About Gala Dinner</h3>
-                <p class="mb-2 wow fadeInLeft" data-wow-delay="100ms">Gala Dinner will be organised in between 10th Jan 2025 - 26th Jan 2025</p>
-                <p class="mb-5 wow fadeInLeft" data-wow-delay="300ms">Don't miss this unforgettable event. Participate in the Star IB Content, rise to the Top 40 Partners, and join us for an extraordinary evening filled with lively celebrations, exclusive networking opportunities, and moments that will stay with you for a lifetime.</p>
-                <h4 class="text-primary wow fadeInLeft">Benefits</h4>
+                <h3 class="text-primary wow fadeInLeft"><?=lang('star_ib_partners_about_gala_dinner_title')?></h3>
+                <p class="mb-2 wow fadeInLeft" data-wow-delay="100ms"><?=lang('star_ib_partners_gala_dinner_date')?></p>
+                <p class="mb-5 wow fadeInLeft" data-wow-delay="300ms"><?=lang('star_ib_partners_gala_dinner_description')?></p>
+                <h4 class="text-primary wow fadeInLeft"><?=lang('star_ib_partners_benefits_title')?></h4>
                 <ol class="list-unstyled wow fadeInLeft" data-wow-delay="200ms">
                     <li class="d-flex gap-3 align-items-center">
                         <i class="fa-solid fa-check text-primary"></i>
-                        <span class="opacity-50">Special Awards</span>
+                        <span class="opacity-50"><?=lang('star_ib_partners_special_awards')?></span>
                     </li>
                     <li class="d-flex gap-3 align-items-center">
                         <i class="fa-solid fa-check text-primary"></i>
-                        <span class="opacity-50">2 nights 3 days trip</span>
+                        <span class="opacity-50"><?=lang('star_ib_partners_trip_duration')?></span>
                     </li>
                     <li class="d-flex gap-3 align-items-center">
                         <i class="fa-solid fa-check text-primary"></i>
-                        <span class="opacity-50">Surprise Gifts</span>
+                        <span class="opacity-50"><?=lang('star_ib_partners_surprise_gifts')?></span>
                     </li>
                     <li class="d-flex gap-3 align-items-center">
                         <i class="fa-solid fa-check text-primary"></i>
-                        <span class="opacity-50">Gala Dinner Night</span>
+                        <span class="opacity-50"><?=lang('star_ib_partners_gala_dinner_night')?></span>
                     </li>
                 </ol>
-                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp">Join Now</a>
+                <a role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary wow fadeInUp"><?=lang('star_ib_partners_stars_ib_contest_join_button')?></a>
             </div>
             <div class="col-md-6 text-center text-md-end">
                 <img src="<?= base_url() ?>public/web/img/gala-dinner.jpg" alt="" class="img-fluid rounded wow fadeInRight" />
@@ -226,43 +226,28 @@
         <div class="row">
             <div class="col-12">
                 <div class="linear-border contest-terms">
-                    <h2 class="title wow fadeInUp text-center mb-5" data-wow-delay="100ms">Terms & Conditions</h2>
+                    <h2 class="title wow fadeInUp text-center mb-5" data-wow-delay="100ms"><?=lang('star_ib_partners_terms_conditions_title')?></h2>
                     <ol class="text-white opacity-75 wow fadeInUp">
-                       <li>Starts from 1st January 2024 to 31st March 2024.</li>
+                       <li><?=lang('star_ib_partners_terms_conditions_subtitle')?></li>
 
-<li>ECN account type is not valid fot this contest.</li>
-<li>Sub IB Activation is minimum $5000 net business in Quarterly</li>
-
-<li>Cash prize is based on minimum 2.5 % of Total Net deposit value.</li>
-
-<li>IB Salary for Top 10 Quarterly qualified IB Partners - $500 until Next quarter.</li>
-
-<li>Participants shall be eligible to redeem the Prize based on the Deposit Target and Volume Target accumulated based on net deposit and trading volume scores, as deposited and traded by their directly introduced clients.</li>
-
-<li>Deposit Target is calculated by accumulated net deposits (deposits – withdrawals) to the Clients directly introduced by the Affiliate only, towards the Deposit Target.
-Affiliate can monitor his Deposit and Volume Targets on his IB CRM area.</li>
-
-<li>The Affiliate’s own accounts are excluded from the YaMarkets IB promotion, therefore deposits and volume traded on Affiliate’s own trading account shall not be counted towards the Deposit and Volume Targets.</li>
-
-<li>The Deposits and trading volume of Clients introduced by sub-Affiliates of the Affiliate shall not be counted towards the Deposit and Volume Targets.</li>
-
-<li>The positions opened by Clients introduced by the Affiliate, prior his registration for the YaMarkets IB Contest shall not be counted towards the Affiliate’s Volume Target.</li>
-
-<li>Only forex, gold, silver and cryptocurrency positions traded by Clients directly introduced by the Affiliate shall be counted towards the Affiliate’s Volume Target.</li>
-
-<li>Only active client accounts during the contest period will be considered for the calculation of volume.</li>
-
-<li>Only closed deals(trades) are taken into calculation. Open trades will not contribute in volume calculation.</li>
-
-<li>TOP 10 Partners every quater will be qualified for IB Partners Contest and for Gala Dinner Contest subject to satisfying deposit and trading volume requirements within the specified time period.</li>
-
-<li>At the end of the contest Top 40 partners will be invited to International Gala Dinner  </li>
-<li>Gala Dinner will be organize in between 10th jan 2025 - 26th jan 2025</li>
-
-<li>Date of announcement of the Contest results: 15th April 2024.</li>
-
-<li>The Company reserves the right, at its absolute discretion, to unilaterally modify, change orterminate the YaMarkets IB Contest 2024 or any of the Terms and Conditions included herein,at any time without the Affiliate’s consent.</li>
-                        
+<li><?=lang('star_ib_partners_ecn_account_not_valid')?></li>
+<li><?=lang('star_ib_partners_sub_ib_activation')?></li>
+<li><?=lang('star_ib_partners_cash_prize_minimum')?></li>
+<li><?=lang('star_ib_partners_ib_salary')?></li>
+<li><?=lang('star_ib_partners_eligible_to_redeem')?></li>
+<li><?=lang('star_ib_partners_deposit_target_calculation')?></li>
+<li><?=lang('star_ib_partners_excluded_accounts')?></li>
+<li><?=lang('star_ib_partners_deposits_volume_clients')?></li>
+<li><?=lang('star_ib_partners_positions_opened_prior')?></li>
+<li><?=lang('star_ib_partners_eligible_traded_positions')?></li>
+<li><?=lang('star_ib_partners_active_client_accounts')?></li>
+<li><?=lang('star_ib_partners_closed_deals_calculation')?></li>
+<li><?=lang('star_ib_partners_top_10_partners_qualification')?></li>
+<li><?=lang('star_ib_partners_top_40_gala_dinner')?></li>
+<li><?=lang('star_ib_partners_gala_dinner_date')?></li>
+<li><?=lang('star_ib_partners_contest_results_announcement')?></li>
+<li><?=lang('star_ib_partners_company_right_to_modify')?></li>
+                  
                     </ol>
                 </div>
             </div>
@@ -286,29 +271,29 @@ Affiliate can monitor his Deposit and Volume Targets on his IB CRM area.</li>
                         <div class="col-md-12">
                             <div class="form-floating">
                                 <input type="text" class="form-control" id="name"  name="name" placeholder="Name" required />
-                                <label for="name">Name</label>
+                                <label for="name"><?=lang('star_ib_partners_name_placeholder')?></label>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-floating">
                                 <input type="email" class="form-control" id="email"  name="email" placeholder="Enter email" required />
-                                <label for="email">Enter email</label>
+                                <label for="email"><?=lang('star_ib_partners_enter_email_placeholder')?></label>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-floating">
                                 <input type="tel" class="form-control" id="phone"  name="mobile_no" value="+91 " maxlength="10" placeholder="Enter mobile no." required />
-                                <label for="phone">Enter mobile no.</label>
+                                <label for="phone"><?=lang('star_ib_partners_enter_mobile_placeholder')?></label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
                                 <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
-                                <label for="message">Message</label>
+                                <label for="message"><?=lang('star_ib_partners_message_placeholder')?></label>
                             </div>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-outline-primary px-5 py-2">Submit</button>
+                            <button type="submit" class="btn btn-outline-primary px-5 py-2"><?=lang('star_ib_partners_submit_button')?></button>
                         </div>
                     </div>
                 </form>

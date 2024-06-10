@@ -7,11 +7,11 @@
     <div class="container">
         <div class="row gy-2 align-items-center text-center text-lg-start">
             <div class="col-lg-6">
-                <h5 class="text-primary fw-bold text-uppercase wow fadeInLeftBig">Blogs</h5>
-                <h2 class="title wow fadeInLeftBig" data-wow-delay="200ms">Read Blogs and Articles <span class="text-gradient d-xl-block">For Expert Market Insights</span></h2>
+                <h5 class="text-primary fw-bold text-uppercase wow fadeInLeftBig"><?=lang('blog_withdraw_section_title')?></h5>
+                <h2 class="title wow fadeInLeftBig" data-wow-delay="200ms"><?=lang('blog_withdraw_section_subtitle_1')?> <span class="text-gradient d-xl-block"><?=lang('blog_withdraw_section_subtitle_2')?></span></h2>
             </div>
             <div class="col-lg-6">
-                <p class="wow fadeInRightBig">YaMarkets blogs are about financial-related trading topics for in-depth knowledge before trading. We will cover all the topics like stocks, commodities, forex, cryptocurrency, and various aspects of the financial market.</p>
+                <p class="wow fadeInRightBig"><?=lang('blog_withdraw_section_description')?></p>
             </div>
         </div>
     </div>
